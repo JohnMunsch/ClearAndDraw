@@ -1,0 +1,87 @@
+<div ng-include="'views/menu.html'"></div>
+
+<style>
+  .fullCard {
+    width: 420px;
+    height: 588px;
+    border: 1px solid black;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+</style>
+
+<div>
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <!-- ClearAndDraw Leaderboard -->
+  <ins class="adsbygoogle"
+       style="display:inline-block;width:728px;height:90px"
+       data-ad-client="ca-pub-8376642740439271"
+       data-ad-slot="5219792599"></ins>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</div>
+
+<div class="row">
+  <div class="col-sm-9">
+    <div class="fullCard">
+      <div class="costAndAffiliation">
+        <span class="cost">{{ card.cost }}</span>
+        <span class="type">{{ card.type }}</span>
+        <span class="affiliation" ng-if="card.affiliation !== 'None'">({{ card.affiliation }})</span>
+      </div>
+      <div class="name">{{ card.name }}</div>
+      <div class="subtitle">{{ card.subtitle }}</div>
+
+      <div class="rarity">
+        Rarity: {{ card.rarity }}
+      </div>
+      <div class="cardText">
+        <div class="ability" ng-if="card.ability">Ability: {{ card.ability }}</div>
+        <div class="burstAbility" ng-if="card['* ability']">* Ability: {{ card['* ability'] }}</div>
+        <div class="doubleBurstAbility" ng-if="card['** ability']">** Ability: {{ card['** ability'] }}</div>
+        <div class="global" ng-if="card.global">Global: {{ card.global }}</div>
+      </div>
+
+      <div class="dieLimit">Die Limit: {{ card.dieLimit }}</div>
+
+      <div class="dieFaces">
+        <span class="dieFace" ng-repeat="face in card.faces track by $index">{{ face }}</span>
+      </div>
+
+      <div class="cardNum">
+        Card #: {{ card.id }}
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-3">
+    <div>
+      # of Cards Owned: {{ numCards(card.id, myCollection) }}
+      <span class="btn-group">
+        <button type="button" class="btn btn-primary btn-xs" disabled="disabled">Card</button>
+        <button type="button" class="btn btn-primary btn-xs"
+                ng-click="addCardToTeam(card.id, myCollection)">
+          <span class="glyphicon glyphicon-plus"></span></button>
+        <button type="button" class="btn btn-primary btn-xs"
+                ng-click="removeCardFromTeam(card.id, myCollection)">
+          <span class="glyphicon glyphicon-minus"></span></button>
+      </span>
+    </div>
+
+    <div>
+      # of Dice Owned: {{ numDice(card.id, myCollection) }}
+      <span class="btn-group">
+        <button type="button" class="btn btn-primary btn-xs" disabled="disabled">Dice</button>
+        <button type="button" class="btn btn-primary btn-xs"
+                ng-click="addDieToTeam(card.dieId, myCollection)">
+          <span class="glyphicon glyphicon-plus"></span></button>
+        <button type="button" class="btn btn-primary btn-xs"
+                ng-click="removeDieFromTeam(card.dieId, myCollection)">
+          <span class="glyphicon glyphicon-minus"></span></button>
+      </span>
+    </div>
+  </div>
+</div>
+
+<div ng-include="'views/footer.html'"></div>

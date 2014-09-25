@@ -1,0 +1,156 @@
+@font-face {
+  font-family: 'Komika Axis Regular';
+  src: url('/fonts/Komika-Axis/regular/KOMIKAX_-webfont.eot');
+  src: url('/fonts/Komika-Axis/regular/KOMIKAX_-webfont.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/Komika-Axis/regular/KOMIKAX_-webfont.woff') format('woff'),
+  url('/fonts/Komika-Axis/regular/KOMIKAX_-webfont.ttf') format('truetype'),
+  url('/fonts/Komika-Axis/regular/KOMIKAX_-webfont.svg#komika_axisregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Komika Display Regular';
+  src: url('/fonts/Komika-Display/regular/Komika_display-webfont.eot');
+  src: url('/fonts/Komika-Display/regular/Komika_display-webfont.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/Komika-Display/regular/Komika_display-webfont.woff') format('woff'),
+  url('/fonts/Komika-Display/regular/Komika_display-webfont.ttf') format('truetype'),
+  url('/fonts/Komika-Display/regular/Komika_display-webfont.svg#komika_displayregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Komika Axis Regular', Arial, sans-serif;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+.release {
+  font-size: .5em;
+  color: burlywood;
+}
+
+.siteName a {
+  color: rgb(255, 112, 0);
+  text-decoration: none;
+}
+
+.filtering {
+  font-family: 'Komika Display Regular', Arial, sans-serif;
+}
+
+.filtering .input-group {
+  font-family: Arial, sans-serif;
+}
+
+.toolbar {
+  margin-bottom: 10px;
+}
+
+.cardCount {
+  font-family: 'Komika Axis Regular', Arial, sans-serif;
+  vertical-align: bottom;
+}
+
+.cardList {
+  margin-bottom: 100px;
+}
+
+.card {
+  padding: 2px 5px 2px 5px;
+  background-color: rgb(228, 228, 228);
+  margin: 1px 0px 2px 0px;
+}
+
+.card .checkbox {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.card .name {
+  font-family: Helvetica Neue, Helvetica, Arial;
+}
+
+.card a {
+  color: black;
+}
+
+.card .details {
+  padding-left: 10px;
+  background-color: #F0F0F0;
+}
+
+.lbl {
+  font-weight: bold;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}

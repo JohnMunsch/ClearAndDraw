@@ -1,0 +1,13 @@
+node_modules
+dist
+.tmp
+.sass-cache
+app/bower_components
+.DS_Store
+.idea/
+app/.DS_Store
+app/fonts/.DS_Store
+app/fonts/Komika-Axis/.DS_Store
+app/fonts/Komika-Display/.DS_Store
+app/fonts/Komika-Display/web fonts/.DS_Store
+digital_ocean

@@ -1,0 +1,152 @@
+<div ng-include="'views/menu.html'"></div>
+
+<div>
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <!-- ClearAndDraw Leaderboard -->
+  <ins class="adsbygoogle"
+       style="display:inline-block;width:728px;height:90px"
+       data-ad-client="ca-pub-8376642740439271"
+       data-ad-slot="5219792599"></ins>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</div>
+
+<h1>All Cards</h1>
+
+<div class="row">
+  <div class="col-sm-3">
+    <form class="filtering" role="form">
+      <div class="input-group input-group-sm search-group">
+        <input type="text" class="form-control" ng-model="searchText">
+        <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+      </div>
+
+      <h5>Card Ownership</h5>
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" ng-model="cardOwned"> I own it
+        </label>
+      </div>
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" ng-model="cardUnowned"> I don't own it
+        </label>
+      </div>
+
+      <h5>Affiliations</h5>
+      <div class="checkbox" ng-repeat="affiliation in filters.affiliations">
+        <label>
+          <input type="checkbox" ng-true-value="{{ affiliation }}" ng-false-value="" ng-model="affiliations[$index]"> {{ affiliation }}
+        </label>
+      </div>
+
+      <h5>Cost</h5>
+      <div class="checkbox" ng-repeat="cost in filters.costs">
+        <label>
+          <input type="checkbox" ng-true-value="{{ cost }}" ng-false-value="" ng-model="costs[$index]"> {{ cost }}
+        </label>
+      </div>
+
+      <h5>Type</h5>
+      <div class="checkbox" ng-repeat="type in filters.types">
+        <label>
+          <input type="checkbox" ng-true-value="{{ type }}" ng-false-value="" ng-model="types[$index]"> {{ type }}
+        </label>
+      </div>
+
+      <h5>Rarity</h5>
+      <div class="checkbox" ng-repeat="rarity in filters.rarities">
+        <label>
+          <input type="checkbox" ng-true-value="{{ rarity }}" ng-false-value="" ng-model="rarities[$index]"> {{ rarity }}
+        </label>
+      </div>
+
+      <h5>Die Limit</h5>
+      <div class="checkbox" ng-repeat="dieLimit in filters.dieLimits">
+        <label>
+          <input type="checkbox" ng-true-value="{{ dieLimit }}" ng-false-value="" ng-model="dieLimits[$index]"> {{ dieLimit }}
+        </label>
+      </div>
+    </form>
+  </div>
+  <div class="col-sm-9">
+    <div class="toolbar">
+      <div class="btn-group">
+        <button type="button" class="btn btn-primary btn-xs dropdown-toggle" data-toggle="dropdown">
+          <span class="glyphicon glyphicon-ok"></span> <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+          <li><a ng-click="selectAll(filteredCards(allCards, myCollection))">All</a></li>
+          <li><a ng-click="selectNone(filteredCards(allCards, myCollection))">None</a></li>
+          <li><a ng-click="invertSelection(filteredCards(allCards, myCollection))">Invert</a></li>
+        </ul>
+      </div>
+      &nbsp;
+      <span class="btn-group">
+        <button type="button" class="btn btn-primary btn-xs" disabled="disabled">Card</button>
+        <button type="button" class="btn btn-primary btn-xs"
+                ng-click="addCardToSelected(filteredCards(allCards, myCollection), myCollection)">
+          <span class="glyphicon glyphicon-plus"></span></button>
+        <button type="button" class="btn btn-primary btn-xs"
+                ng-click="removeCardFromSelected(filteredCards(allCards, myCollection), myCollection)">
+          <span class="glyphicon glyphicon-minus"></span></button>
+      </span>
+      &nbsp;
+      <span class="btn-group">
+        <button type="button" class="btn btn-primary btn-xs" disabled="disabled">Dice</button>
+        <button type="button" class="btn btn-primary btn-xs"
+                ng-click="addDieToSelected(filteredCards(allCards, myCollection), myCollection)">
+          <span class="glyphicon glyphicon-plus"></span></button>
+        <button type="button" class="btn btn-primary btn-xs"
+                ng-click="removeDieFromSelected(filteredCards(allCards, myCollection), myCollection)">
+          <span class="glyphicon glyphicon-minus"></span></button>
+      </span>
+      &nbsp;
+      <span class="btn-group" ng-hide="true">
+        <button type="button" class="btn btn-primary btn-xs dropdown-toggle" data-toggle="dropdown">
+          Team <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+          <li><a ng-click="">Create New</a></li>
+          <li><a ng-click="">Manage Teams</a></li>
+        </ul>
+      </span>
+
+      <div class="cardCount pull-right">
+        {{ filteredCards(allCards, myCollection).length }} Cards
+      </div>
+    </div>
+
+    <div class="cardList">
+      <div class="card" ng-repeat="card in filteredCards(allCards, myCollection)|filter:searchText">
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" ng-model="card.selected">
+            <a class="name" href="#!/card/{{ card.slug }}">{{ card.name }} - {{ card.subtitle }}</a>
+
+            <span class="badge" ng-if="numCards(card.id, myCollection) || numDice(card.id, myCollection)">
+              {{ numCards(card.id, myCollection) }} | {{ numDice(card.id, myCollection) }}
+            </span>
+
+            <div class="pull-right"><small>{{ card.cost }}{{ card.type }}/{{ card.affiliation }}/{{ card.dieLimit }}/{{ card.rarity }}</small></div>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div>
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <!-- ClearAndDraw Leaderboard -->
+  <ins class="adsbygoogle"
+       style="display:inline-block;width:728px;height:90px"
+       data-ad-client="ca-pub-8376642740439271"
+       data-ad-slot="5219792599"></ins>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</div>
+
+<div ng-include="'views/footer.html'"></div>
