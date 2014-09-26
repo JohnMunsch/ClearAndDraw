@@ -22,6 +22,14 @@ Then use Grunt to run a server and launch the web page in a browser where you ca
 
 `grunt serve`
 
+## Testing
+
+Or run the unit tests with:
+
+`grunt test`
+
+Look for the code coverage reports as index.html files under the "coverage" directory; there will be one for each browser under which the tests were run.
+
 ## To-Do List
 
 * Re-layout of the card page
