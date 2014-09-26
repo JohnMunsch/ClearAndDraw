@@ -2,7 +2,9 @@
 
 ## Introduction
 
+ClearAndDraw is a little AngularJS application I whipped up in a few evenings because I happen to like the card and dice game _Marvel Dicemasters: Avengers vs. X-Men_. As you enter in information about the cards and dice you have, it saves it in the browser's localStorage.
 
+It needs a ton more features to be useful, including a central server to which you could save your catalog of info and the ability to create teams of cards and dice for play.
 
 ## Installation
 
