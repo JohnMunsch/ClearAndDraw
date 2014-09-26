@@ -10,15 +10,17 @@ It needs a ton more features to be useful, including a central server to which y
 
 You don't really have to "install" anything to look at or use the code. But if you want to see it run locally or run the unit tests you'll need to do a few things. First off, make sure you've installed [Node.js](http://nodejs.org) so you can run the Node Package Manager (npm). Then make sure you've installed both Grunt and Bower. I'm not going to tell you how to do all of that, but instead I'll just direct you to the [Yeoman project](http://yeoman.io) where they tell you about installing all of these great JavaScript tools. Fortunately, npm makes it all pretty darn easy and installing Node.js is easy too.
 
-Finally you need to install Karma (it's used for the unit-tests:
-
-`npm install -g karma`
-
 With all the software you need installed, you can run a couple of commands in the root of the airquotes project to get installed what you need to run or test it locally:
 
 `bower install`
 
 `npm install`
+
+## Running
+
+Then use Grunt to run a server and launch the web page in a browser where you can explore the working UI:
+
+`grunt serve`
 
 ## To-Do List
 
