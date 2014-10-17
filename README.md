@@ -1,5 +1,7 @@
 # ClearAndDraw README
 
+[![Code Climate](https://codeclimate.com/github/JohnMunsch/ClearAndDraw/badges/gpa.svg)](https://codeclimate.com/github/JohnMunsch/ClearAndDraw) [![Test Coverage](https://codeclimate.com/github/JohnMunsch/ClearAndDraw/badges/coverage.svg)](https://codeclimate.com/github/JohnMunsch/ClearAndDraw)
+
 ## Introduction
 
 ClearAndDraw is a little AngularJS application I whipped up in a few evenings because I happen to like the card and dice game _Marvel Dicemasters: Avengers vs. X-Men_. As you enter in information about the cards and dice you have, it saves it in the browser's localStorage.
