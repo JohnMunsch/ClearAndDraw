@@ -3,7 +3,7 @@ angular.module('mdmApp')
     'use strict';
 
     $scope.card = dataSvc.findCardBySlug($routeParams.slug);
-    $scope.die = dataSvc.findDieById($scope.card.dieId);
+    $scope.die = dataSvc.findDieById($scope.card.dieId, $scope.card.setAbbr);
 
     $scope.myCollection = dataSvc.myCollection;
 
@@ -15,4 +15,6 @@ angular.module('mdmApp')
 
     $scope.addDieToTeam = dataSvc.addDieToTeam;
     $scope.removeDieFromTeam = dataSvc.removeDieFromTeam;
+
+    $scope.setName = dataSvc.setName;
   });

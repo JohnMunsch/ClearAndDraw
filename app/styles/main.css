@@ -89,6 +89,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 .filtering {
   font-family: 'Komika Display Regular', Arial, sans-serif;
+  font-size: 13px;
 }
 
 .filtering .input-group {

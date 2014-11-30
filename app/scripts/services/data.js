@@ -9,16 +9,18 @@ angular.module('mdmApp')
       var myCollection = $localStorage.myCollection;
 
       this.filters = {
-        affiliations: _.pluck(_.uniq(avengersVsXmenCardData, 'affiliation'), 'affiliation'),
-        costs: _.sortBy(_.pluck(_.uniq(avengersVsXmenCardData, 'cost'), 'cost')),
-        types: _.sortBy(_.pluck(_.uniq(avengersVsXmenCardData, 'type'), 'type')),
-        rarities: _.pluck(_.uniq(avengersVsXmenCardData, 'rarity'), 'rarity'),
-        dieLimits: _.sortBy(_.pluck(_.uniq(avengersVsXmenCardData, 'dieLimit'), 'dieLimit'))
+        sets: _.pluck(_.uniq(dicemastersCardData, 'setAbbr'), 'setAbbr'),
+        affiliations: _.pluck(_.uniq(dicemastersCardData, 'affiliation'), 'affiliation'),
+        costs: _.sortBy(_.pluck(_.uniq(dicemastersCardData, 'cost'), 'cost')),
+        types: _.sortBy(_.pluck(_.uniq(dicemastersCardData, 'type'), 'type')),
+        rarities: _.pluck(_.uniq(dicemastersCardData, 'rarity'), 'rarity'),
+        dieLimits: _.sortBy(_.pluck(_.uniq(dicemastersCardData, 'dieLimit'), 'dieLimit'))
       };
 
       // These are the various filters the user may set which effect the filtering that filteredCards() does.
       this.cardOwned = false;
       this.cardUnowned = false;
+      this.sets = [ ];
       this.affiliations = [ ];
       this.costs = [ ];
       this.types = [ ];
@@ -26,7 +28,7 @@ angular.module('mdmApp')
       this.dieLimits = [ ];
 
       // Expose the complete list of cards to consumers of the service.
-      this.allCards = updateCardList(avengersVsXmenCardData);
+      this.allCards = updateCardList(dicemastersCardData);
 
       // Expose the special team that represents my collection of cards and dice.
       this.myCollection = updateTeam(myCollection);
@@ -167,6 +169,7 @@ angular.module('mdmApp')
       };
 
       this.filteredCards = function (cardList, team) {
+        var setsList = _.compact(this.sets);
         var affiliationsList = _.compact(this.affiliations);
         var costsList = _.compact(_.map(this.costs, function (cost) { return parseInt(cost); }));
         var typesList = _.compact(this.types);
@@ -174,6 +177,12 @@ angular.module('mdmApp')
         var dieLimitsList = _.compact(_.map(this.dieLimits, function (dieLimit) { return parseInt(dieLimit); }));
 
         return _.filter(cardList, function (card) {
+          if (setsList.length > 0) {
+            if (!_.contains(setsList, card.setAbbr)) {
+              return false;
+            }
+          }
+
           // If an affiliation is selected, see if the affiliate for this card matches any of the selected affiliates.
           if (affiliationsList.length > 0) {
             if (!_.contains(affiliationsList, card.affiliation)) {
@@ -232,8 +241,19 @@ angular.module('mdmApp')
         return (_.find(this.allCards, { slug: slug }));
       };
 
-      this.findDieById = function (dieId) {
-        return (_.find(avengersVsXmenDieData, { id: dieId }));
+      this.findDieById = function (dieId, setAbbr) {
+        return (_.find(dicemastersDieData, { id: dieId, setAbbr: setAbbr }));
+      };
+
+      this.setName = function (setAbbreviation) {
+        switch (setAbbreviation) {
+          case 'AVX':
+            return 'Avengers vs. X-Men';
+          case 'UX':
+            return 'Uncanny X-Men';
+          default:
+            return 'Unknown';
+        }
       };
 
       //////////////////////////////////////////////////////////////////////////////////////////////////////////////////

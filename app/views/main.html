@@ -34,6 +34,13 @@
         </label>
       </div>
 
+      <h5>Set</h5>
+      <div class="checkbox" ng-repeat="set in filters.sets">
+        <label>
+          <input type="checkbox" ng-true-value="{{ set }}" ng-false-value="" ng-model="sets[$index]"> {{ setName(set) }}
+        </label>
+      </div>
+
       <h5>Affiliations</h5>
       <div class="checkbox" ng-repeat="affiliation in filters.affiliations">
         <label>

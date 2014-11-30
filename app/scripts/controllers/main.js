@@ -7,6 +7,7 @@ angular.module('mdmApp')
     $scope.cardUnowned = dataSvc.cardUnowned;
 
     $scope.filters = dataSvc.filters;
+    $scope.sets = dataSvc.sets;
     $scope.affiliations = dataSvc.affiliations;
     $scope.types = dataSvc.types;
     $scope.costs = dataSvc.costs;
@@ -30,4 +31,6 @@ angular.module('mdmApp')
 
     $scope.numCards = dataSvc.numCards;
     $scope.numDice = dataSvc.numDice;
+
+    $scope.setName = dataSvc.setName;
   });

@@ -1,7 +1,8 @@
-var avengersVsXmenCardData = [
+var dicemastersCardData = [
   {
     id: 1,
     dieId: 1,
+    setAbbr:         "AVX",
     name:        "Beast",
     subtitle:    "Big Boy Blue",
     cost:        2,
@@ -17,6 +18,7 @@ var avengersVsXmenCardData = [
   {
     id: 2,
     dieId: 1,
+    setAbbr:         "AVX",
     name:        "Beast",
     subtitle:    "Genetic Expert",
     cost:        2,
@@ -32,6 +34,7 @@ var avengersVsXmenCardData = [
   {
     id: 3,
     dieId: 1,
+    setAbbr:         "AVX",
     name:        "Beast",
     subtitle:    "Mutate #666",
     cost:        2,
@@ -47,6 +50,7 @@ var avengersVsXmenCardData = [
   {
     id: 4,
     dieId: 2,
+    setAbbr:         "AVX",
     name:        "Captain America",
     subtitle:    "American Hero",
     cost:        4,
@@ -62,6 +66,7 @@ var avengersVsXmenCardData = [
   {
     id: 5,
     dieId: 2,
+    setAbbr:         "AVX",
     name:        "Captain America",
     subtitle:    "Natural Leader",
     cost:        4,
@@ -77,6 +82,7 @@ var avengersVsXmenCardData = [
   {
     id: 6,
     dieId: 2,
+    setAbbr:         "AVX",
     name:        "Captain America",
     subtitle:    "Star-Spangled Avenger",
     cost:        5,
@@ -92,6 +98,7 @@ var avengersVsXmenCardData = [
   {
     id: 7,
     dieId: 3,
+    setAbbr:         "AVX",
     name:        "Hulk",
     subtitle:    "Anger Issue",
     cost:        7,
@@ -107,6 +114,7 @@ var avengersVsXmenCardData = [
   {
     id: 8,
     dieId: 3,
+    setAbbr:         "AVX",
     name:        "Hulk",
     subtitle:    "Annihilator",
     cost:        6,
@@ -122,6 +130,7 @@ var avengersVsXmenCardData = [
   {
     id: 9,
     dieId: 3,
+    setAbbr:         "AVX",
     name:        "Hulk",
     subtitle:    "Jade Giant",
     cost:        6,
@@ -137,6 +146,7 @@ var avengersVsXmenCardData = [
   {
     id: 10,
     dieId: 4,
+    setAbbr:         "AVX",
     name:        "Human Torch",
     subtitle:    "Flame On!",
     cost:        4,
@@ -152,6 +162,7 @@ var avengersVsXmenCardData = [
   {
     id: 11,
     dieId: 4,
+    setAbbr:         "AVX",
     name:        "Human Torch",
     subtitle:    "Matchstick",
     cost:        3,
@@ -167,6 +178,7 @@ var avengersVsXmenCardData = [
   {
     id: 12,
     dieId: 4,
+    setAbbr:         "AVX",
     name:        "Human Torch",
     subtitle:    "Playing with Fire",
     cost:        2,
@@ -182,6 +194,7 @@ var avengersVsXmenCardData = [
   {
     id: 13,
     dieId: 5,
+    setAbbr:         "AVX",
     name:        "Iron Man",
     subtitle:    "Inventor",
     cost:        4,
@@ -197,6 +210,7 @@ var avengersVsXmenCardData = [
   {
     id: 14,
     dieId: 5,
+    setAbbr:         "AVX",
     name:        "Iron Man",
     subtitle:    "Philanthropist",
     cost:        5,
@@ -212,6 +226,7 @@ var avengersVsXmenCardData = [
   {
     id: 15,
     dieId: 5,
+    setAbbr:         "AVX",
     name:        "Iron Man",
     subtitle:    "Playboy",
     cost:        4,
@@ -227,6 +242,7 @@ var avengersVsXmenCardData = [
   {
     id: 16,
     dieId: 6,
+    setAbbr:         "AVX",
     name:        "Spider-Man",
     subtitle:    "\"Tiger\"",
     cost:        4,
@@ -242,6 +258,7 @@ var avengersVsXmenCardData = [
   {
     id: 17,
     dieId: 6,
+    setAbbr:         "AVX",
     name:        "Spider-Man",
     subtitle:    "Webhead",
     cost:        4,
@@ -257,6 +274,7 @@ var avengersVsXmenCardData = [
   {
     id: 18,
     dieId: 6,
+    setAbbr:         "AVX",
     name:        "Spider-Man",
     subtitle:    "Webslinger",
     cost:        5,
@@ -272,6 +290,7 @@ var avengersVsXmenCardData = [
   {
     id: 19,
     dieId: 7,
+    setAbbr:         "AVX",
     name:        "Storm",
     subtitle:    "African Priestess",
     cost:        3,
@@ -287,6 +306,7 @@ var avengersVsXmenCardData = [
   {
     id: 20,
     dieId: 7,
+    setAbbr:         "AVX",
     name:        "Storm",
     subtitle:    "Goddess of the Plains",
     cost:        4,
@@ -302,6 +322,7 @@ var avengersVsXmenCardData = [
   {
     id: 21,
     dieId: 7,
+    setAbbr:         "AVX",
     name:        "Storm",
     subtitle:    "Ro",
     cost:        2,
@@ -317,6 +338,7 @@ var avengersVsXmenCardData = [
   {
     id: 22,
     dieId: 8,
+    setAbbr:         "AVX",
     name:        "Thor",
     subtitle:    "Legendary Warrior",
     cost:        6,
@@ -332,6 +354,7 @@ var avengersVsXmenCardData = [
   {
     id: 23,
     dieId: 8,
+    setAbbr:         "AVX",
     name:        "Thor",
     subtitle:    "Lord of Asgard",
     cost:        6,
@@ -347,6 +370,7 @@ var avengersVsXmenCardData = [
   {
     id: 24,
     dieId: 8,
+    setAbbr:         "AVX",
     name:        "Thor",
     subtitle:    "Odinson",
     cost:        6,
@@ -362,6 +386,7 @@ var avengersVsXmenCardData = [
   {
     id: 25,
     dieId: 9,
+    setAbbr:         "AVX",
     name:        "Basic Action Card",
     subtitle:    "Distraction",
     cost:        4,
@@ -377,6 +402,7 @@ var avengersVsXmenCardData = [
   {
     id: 26,
     dieId: 9,
+    setAbbr:         "AVX",
     name:        "Basic Action Card",
     subtitle:    "Focus Power",
     cost:        4,
@@ -392,6 +418,7 @@ var avengersVsXmenCardData = [
   {
     id: 27,
     dieId: 9,
+    setAbbr:         "AVX",
     name:        "Basic Action Card",
     subtitle:    "Force Beam",
     cost:        3,
@@ -407,6 +434,7 @@ var avengersVsXmenCardData = [
   {
     id: 28,
     dieId: 9,
+    setAbbr:         "AVX",
     name:        "Basic Action Card",
     subtitle:    "Gearing Up",
     cost:        4,
@@ -422,6 +450,7 @@ var avengersVsXmenCardData = [
   {
     id: 29,
     dieId: 9,
+    setAbbr:         "AVX",
     name:        "Basic Action Card",
     subtitle:    "Inner Rage",
     cost:        3,
@@ -437,6 +466,7 @@ var avengersVsXmenCardData = [
   {
     id: 30,
     dieId: 9,
+    setAbbr:         "AVX",
     name:        "Basic Action Card",
     subtitle:    "Invulnerability",
     cost:        2,
@@ -452,6 +482,7 @@ var avengersVsXmenCardData = [
   {
     id: 31,
     dieId: 9,
+    setAbbr:         "AVX",
     name:        "Basic Action Card",
     subtitle:    "Power Bolt",
     cost:        3,
@@ -467,6 +498,7 @@ var avengersVsXmenCardData = [
   {
     id: 32,
     dieId: 9,
+    setAbbr:         "AVX",
     name:        "Basic Action Card",
     subtitle:    "Smash!",
     cost:        3,
@@ -482,6 +514,7 @@ var avengersVsXmenCardData = [
   {
     id: 33,
     dieId: 9,
+    setAbbr:         "AVX",
     name:        "Basic Action Card",
     subtitle:    "Take Cover",
     cost:        3,
@@ -497,6 +530,7 @@ var avengersVsXmenCardData = [
   {
     id: 34,
     dieId: 9,
+    setAbbr:         "AVX",
     name:        "Basic Action Card",
     subtitle:    "Thrown Car",
     cost:        4,
@@ -512,6 +546,7 @@ var avengersVsXmenCardData = [
   {
     id: 35,
     dieId: 10,
+    setAbbr:         "AVX",
     name:        "Angel",
     subtitle:    "High Ground",
     cost:        3,
@@ -527,6 +562,7 @@ var avengersVsXmenCardData = [
   {
     id: 36,
     dieId: 11,
+    setAbbr:         "AVX",
     name:        "Black Widow",
     subtitle:    "Natural",
     cost:        2,
@@ -542,6 +578,7 @@ var avengersVsXmenCardData = [
   {
     id: 37,
     dieId: 12,
+    setAbbr:         "AVX",
     name:        "Colossus",
     subtitle:    "Unstoppable",
     cost:        6,
@@ -557,6 +594,7 @@ var avengersVsXmenCardData = [
   {
     id: 38,
     dieId: 13,
+    setAbbr:         "AVX",
     name:        "Cyclops",
     subtitle:    "Slim",
     cost:        5,
@@ -572,6 +610,7 @@ var avengersVsXmenCardData = [
   {
     id: 39,
     dieId: 14,
+    setAbbr:         "AVX",
     name:        "Deadpool",
     subtitle:    "Assassin",
     cost:        4,
@@ -587,6 +626,7 @@ var avengersVsXmenCardData = [
   {
     id: 40,
     dieId: 15,
+    setAbbr:         "AVX",
     name:        "Doctor Doom",
     subtitle:    "Reed Richard's Rival",
     cost:        5,
@@ -602,6 +642,7 @@ var avengersVsXmenCardData = [
   {
     id: 41,
     dieId: 16,
+    setAbbr:         "AVX",
     name:        "Doctor Octopus",
     subtitle:    "Megalomaniac",
     cost:        6,
@@ -617,6 +658,7 @@ var avengersVsXmenCardData = [
   {
     id: 42,
     dieId: 17,
+    setAbbr:         "AVX",
     name:        "Doctor Strange",
     subtitle:    "Sorcerer Supreme",
     cost:        7,
@@ -632,6 +674,7 @@ var avengersVsXmenCardData = [
   {
     id: 43,
     dieId: 18,
+    setAbbr:         "AVX",
     name:        "Gambit",
     subtitle:    "Ace in the Hole",
     cost:        3,
@@ -647,6 +690,7 @@ var avengersVsXmenCardData = [
   {
     id: 44,
     dieId: 19,
+    setAbbr:         "AVX",
     name:        "Ghost Rider",
     subtitle:    "Johnny Blaze",
     cost:        2,
@@ -662,6 +706,7 @@ var avengersVsXmenCardData = [
   {
     id: 45,
     dieId: 20,
+    setAbbr:         "AVX",
     name:        "Green Goblin",
     subtitle:    "Goblin-Lord",
     cost:        3,
@@ -677,6 +722,7 @@ var avengersVsXmenCardData = [
   {
     id: 46,
     dieId: 21,
+    setAbbr:         "AVX",
     name:        "Hawkeye",
     subtitle:    "Longbow",
     cost:        4,
@@ -692,6 +738,7 @@ var avengersVsXmenCardData = [
   {
     id: 47,
     dieId: 22,
+    setAbbr:         "AVX",
     name:        "Loki",
     subtitle:    "Trickster",
     cost:        6,
@@ -707,6 +754,7 @@ var avengersVsXmenCardData = [
   {
     id: 48,
     dieId: 23,
+    setAbbr:         "AVX",
     name:        "Magneto",
     subtitle:    "Former Comrade",
     cost:        5,
@@ -722,6 +770,7 @@ var avengersVsXmenCardData = [
   {
     id: 49,
     dieId: 24,
+    setAbbr:         "AVX",
     name:        "Mr. Fantastic",
     subtitle:    "Brilliant Scientist",
     cost:        3,
@@ -737,6 +786,7 @@ var avengersVsXmenCardData = [
   {
     id: 50,
     dieId: 25,
+    setAbbr:         "AVX",
     name:        "Mystique",
     subtitle:    "Unknown",
     cost:        4,
@@ -752,6 +802,7 @@ var avengersVsXmenCardData = [
   {
     id: 51,
     dieId: 26,
+    setAbbr:         "AVX",
     name:        "Nick Fury",
     subtitle:    "Mr. Anger",
     cost:        2,
@@ -767,6 +818,7 @@ var avengersVsXmenCardData = [
   {
     id: 52,
     dieId: 27,
+    setAbbr:         "AVX",
     name:        "Nightcrawler",
     subtitle:    "Fuzzy Elf",
     cost:        5,
@@ -782,6 +834,7 @@ var avengersVsXmenCardData = [
   {
     id: 53,
     dieId: 28,
+    setAbbr:         "AVX",
     name:        "Nova",
     subtitle:    "Quasar",
     cost:        5,
@@ -797,6 +850,7 @@ var avengersVsXmenCardData = [
   {
     id: 54,
     dieId: 29,
+    setAbbr:         "AVX",
     name:        "Phoenix",
     subtitle:    "Ms. Psyche",
     cost:        6,
@@ -812,6 +866,7 @@ var avengersVsXmenCardData = [
   {
     id: 55,
     dieId: 30,
+    setAbbr:         "AVX",
     name:        "Professor X",
     subtitle:    "Principal",
     cost:        6,
@@ -827,6 +882,7 @@ var avengersVsXmenCardData = [
   {
     id: 56,
     dieId: 31,
+    setAbbr:         "AVX",
     name:        "Punisher",
     subtitle:    "McRook",
     cost:        4,
@@ -842,6 +898,7 @@ var avengersVsXmenCardData = [
   {
     id: 57,
     dieId: 32,
+    setAbbr:         "AVX",
     name:        "Rogue",
     subtitle:    "Anna Raven",
     cost:        4,
@@ -857,6 +914,7 @@ var avengersVsXmenCardData = [
   {
     id: 58,
     dieId: 33,
+    setAbbr:         "AVX",
     name:        "Silver Surfer",
     subtitle:    "Silverado",
     cost:        6,
@@ -872,6 +930,7 @@ var avengersVsXmenCardData = [
   {
     id: 59,
     dieId: 34,
+    setAbbr:         "AVX",
     name:        "Thing",
     subtitle:    "Ever-Lovin' Blue-Eyed",
     cost:        6,
@@ -887,6 +946,7 @@ var avengersVsXmenCardData = [
   {
     id: 60,
     dieId: 35,
+    setAbbr:         "AVX",
     name:        "Venom",
     subtitle:    "Eddie Brock",
     cost:        6,
@@ -902,6 +962,7 @@ var avengersVsXmenCardData = [
   {
     id: 61,
     dieId: 36,
+    setAbbr:         "AVX",
     name:        "War Machine",
     subtitle:    "Combat Comrade",
     cost:        5,
@@ -917,6 +978,7 @@ var avengersVsXmenCardData = [
   {
     id: 62,
     dieId: 37,
+    setAbbr:         "AVX",
     name:        "Wolverine",
     subtitle:    "Wildboy",
     cost:        5,
@@ -932,6 +994,7 @@ var avengersVsXmenCardData = [
   {
     id: 63,
     dieId: 38,
+    setAbbr:         "AVX",
     name:        "Mjolnir",
     subtitle:    "Fist of the Righteous",
     cost:        6,
@@ -947,6 +1010,7 @@ var avengersVsXmenCardData = [
   {
     id: 64,
     dieId: 39,
+    setAbbr:         "AVX",
     name:        "Vibranium Shield",
     subtitle:    "One of a Kind",
     cost:        4,
@@ -962,6 +1026,7 @@ var avengersVsXmenCardData = [
   {
     id: 65,
     dieId: 10,
+    setAbbr:         "AVX",
     name:        "Angel",
     subtitle:    "Avenging Angel",
     cost:        3,
@@ -977,6 +1042,7 @@ var avengersVsXmenCardData = [
   {
     id: 66,
     dieId: 1,
+    setAbbr:         "AVX",
     name:        "Beast",
     subtitle:    "Kreature",
     cost:        3,
@@ -992,6 +1058,7 @@ var avengersVsXmenCardData = [
   {
     id: 67,
     dieId: 2,
+    setAbbr:         "AVX",
     name:        "Captain America",
     subtitle:    "Sentinel of Liberty",
     cost:        6,
@@ -1007,6 +1074,7 @@ var avengersVsXmenCardData = [
   {
     id: 68,
     dieId: 12,
+    setAbbr:         "AVX",
     name:        "Colossus",
     subtitle:    "Russian Bear",
     cost:        7,
@@ -1022,6 +1090,7 @@ var avengersVsXmenCardData = [
   {
     id: 69,
     dieId: 13,
+    setAbbr:         "AVX",
     name:        "Cyclops",
     subtitle:    "If Looks Could Kill",
     cost:        7,
@@ -1037,6 +1106,7 @@ var avengersVsXmenCardData = [
   {
     id: 70,
     dieId: 14,
+    setAbbr:         "AVX",
     name:        "Deadpool",
     subtitle:    "Jack",
     cost:        5,
@@ -1052,6 +1122,7 @@ var avengersVsXmenCardData = [
   {
     id: 71,
     dieId: 15,
+    setAbbr:         "AVX",
     name:        "Doctor Doom",
     subtitle:    "Nemesis",
     cost:        6,
@@ -1067,6 +1138,7 @@ var avengersVsXmenCardData = [
   {
     id: 72,
     dieId: 16,
+    setAbbr:         "AVX",
     name:        "Doctor Octopus",
     subtitle:    "Fully Armed",
     cost:        6,
@@ -1082,6 +1154,7 @@ var avengersVsXmenCardData = [
   {
     id: 73,
     dieId: 17,
+    setAbbr:         "AVX",
     name:        "Doctor Strange",
     subtitle:    "Master of the Mystic Arts",
     cost:        6,
@@ -1097,6 +1170,7 @@ var avengersVsXmenCardData = [
   {
     id: 74,
     dieId: 18,
+    setAbbr:         "AVX",
     name:        "Gambit",
     subtitle:    "Le Diable Blanc",
     cost:        5,
@@ -1112,6 +1186,7 @@ var avengersVsXmenCardData = [
   {
     id: 75,
     dieId: 19,
+    setAbbr:         "AVX",
     name:        "Ghost Rider",
     subtitle:    "Spirit of Vengeance",
     cost:        4,
@@ -1127,6 +1202,7 @@ var avengersVsXmenCardData = [
   {
     id: 76,
     dieId: 21,
+    setAbbr:         "AVX",
     name:        "Hawkeye",
     subtitle:    "Br'er Hawkeye",
     cost:        3,
@@ -1142,6 +1218,7 @@ var avengersVsXmenCardData = [
   {
     id: 78,
     dieId: 4,
+    setAbbr:         "AVX",
     name:        "Human Torch",
     subtitle:    "Johnny Storm",
     cost:        4,
@@ -1157,6 +1234,7 @@ var avengersVsXmenCardData = [
   {
     id: 77,
     dieId: 3,
+    setAbbr:         "AVX",
     name:        "Hulk",
     subtitle:    "Green Goliath",
     cost:        6,
@@ -1172,6 +1250,7 @@ var avengersVsXmenCardData = [
   {
     id: 79,
     dieId: 5,
+    setAbbr:         "AVX",
     name:        "Iron Man",
     subtitle:    "Billionaire",
     cost:        6,
@@ -1187,6 +1266,7 @@ var avengersVsXmenCardData = [
   {
     id: 80,
     dieId: 22,
+    setAbbr:         "AVX",
     name:        "Loki",
     subtitle:    "Illusionist",
     cost:        7,
@@ -1202,6 +1282,7 @@ var avengersVsXmenCardData = [
   {
     id: 81,
     dieId: 23,
+    setAbbr:         "AVX",
     name:        "Magneto",
     subtitle:    "Holocaust Survivor",
     cost:        6,
@@ -1217,6 +1298,7 @@ var avengersVsXmenCardData = [
   {
     id: 82,
     dieId: 25,
+    setAbbr:         "AVX",
     name:        "Mystique",
     subtitle:    "Shapeshifter",
     cost:        6,
@@ -1232,6 +1314,7 @@ var avengersVsXmenCardData = [
   {
     id: 83,
     dieId: 26,
+    setAbbr:         "AVX",
     name:        "Nick Fury",
     subtitle:    "WWII Veteran",
     cost:        2,
@@ -1247,6 +1330,7 @@ var avengersVsXmenCardData = [
   {
     id: 84,
     dieId: 27,
+    setAbbr:         "AVX",
     name:        "Nightcrawler",
     subtitle:    "Abandoned",
     cost:        4,
@@ -1262,6 +1346,7 @@ var avengersVsXmenCardData = [
   {
     id: 85,
     dieId: 28,
+    setAbbr:         "AVX",
     name:        "Nova",
     subtitle:    "Bucket Head",
     cost:        6,
@@ -1277,6 +1362,7 @@ var avengersVsXmenCardData = [
   {
     id: 86,
     dieId: 29,
+    setAbbr:         "AVX",
     name:        "Phoenix",
     subtitle:    "Redd",
     cost:        7,
@@ -1292,6 +1378,7 @@ var avengersVsXmenCardData = [
   {
     id: 87,
     dieId: 30,
+    setAbbr:         "AVX",
     name:        "Professor X",
     subtitle:    "Powerful Telepath",
     cost:        5,
@@ -1307,6 +1394,7 @@ var avengersVsXmenCardData = [
   {
     id: 88,
     dieId: 31,
+    setAbbr:         "AVX",
     name:        "Punisher",
     subtitle:    "Vigilante",
     cost:        5,
@@ -1322,6 +1410,7 @@ var avengersVsXmenCardData = [
   {
     id: 89,
     dieId: 32,
+    setAbbr:         "AVX",
     name:        "Rogue",
     subtitle:    "Anna Marie",
     cost:        5,
@@ -1337,6 +1426,7 @@ var avengersVsXmenCardData = [
   {
     id: 90,
     dieId: 33,
+    setAbbr:         "AVX",
     name:        "Silver Surfer",
     subtitle:    "Sentinel",
     cost:        6,
@@ -1352,6 +1442,7 @@ var avengersVsXmenCardData = [
   {
     id: 91,
     dieId: 6,
+    setAbbr:         "AVX",
     name:        "Spider-Man",
     subtitle:    "Wall-Crawler",
     cost:        4,
@@ -1367,6 +1458,7 @@ var avengersVsXmenCardData = [
   {
     id: 92,
     dieId: 7,
+    setAbbr:         "AVX",
     name:        "Storm",
     subtitle:    "Wind-Rider",
     cost:        5,
@@ -1382,6 +1474,7 @@ var avengersVsXmenCardData = [
   {
     id: 93,
     dieId: 34,
+    setAbbr:         "AVX",
     name:        "Thing",
     subtitle:    "Grim Ben",
     cost:        5,
@@ -1397,6 +1490,7 @@ var avengersVsXmenCardData = [
   {
     id: 94,
     dieId: 8,
+    setAbbr:         "AVX",
     name:        "Thor",
     subtitle:    "God of Thunder",
     cost:        6,
@@ -1412,6 +1506,7 @@ var avengersVsXmenCardData = [
   {
     id: 95,
     dieId: 35,
+    setAbbr:         "AVX",
     name:        "Venom",
     subtitle:    "Mac Gargan",
     cost:        5,
@@ -1427,6 +1522,7 @@ var avengersVsXmenCardData = [
   {
     id: 96,
     dieId: 36,
+    setAbbr:         "AVX",
     name:        "War Machine",
     subtitle:    "Parnell Jacobs",
     cost:        5,
@@ -1442,6 +1538,7 @@ var avengersVsXmenCardData = [
   {
     id: 97,
     dieId: 38,
+    setAbbr:         "AVX",
     name:        "Mjolnir",
     subtitle:    "Forged by Odin",
     cost:        6,
@@ -1457,6 +1554,7 @@ var avengersVsXmenCardData = [
   {
     id: 98,
     dieId: 39,
+    setAbbr:         "AVX",
     name:        "Vibranium Shield",
     subtitle:    "Irreplaceable",
     cost:        6,
@@ -1472,6 +1570,7 @@ var avengersVsXmenCardData = [
   {
     id: 99,
     dieId: 10,
+    setAbbr:         "AVX",
     name:        "Angel",
     subtitle:    "Soaring",
     cost:        2,
@@ -1487,6 +1586,7 @@ var avengersVsXmenCardData = [
   {
     id: 100,
     dieId: 11,
+    setAbbr:         "AVX",
     name:        "Black Widow",
     subtitle:    "Killer Instinct",
     cost:        2,
@@ -1502,6 +1602,7 @@ var avengersVsXmenCardData = [
   {
     id: 101,
     dieId: 12,
+    setAbbr:         "AVX",
     name:        "Colossus",
     subtitle:    "Piotr Rasputin",
     cost:        7,
@@ -1517,6 +1618,7 @@ var avengersVsXmenCardData = [
   {
     id: 102,
     dieId: 13,
+    setAbbr:         "AVX",
     name:        "Cyclops",
     subtitle:    "Scott Summers",
     cost:        7,
@@ -1532,6 +1634,7 @@ var avengersVsXmenCardData = [
   {
     id: 103,
     dieId: 14,
+    setAbbr:         "AVX",
     name:        "Deadpool",
     subtitle:    "Chiyonosake",
     cost:        5,
@@ -1547,6 +1650,7 @@ var avengersVsXmenCardData = [
   {
     id: 104,
     dieId: 15,
+    setAbbr:         "AVX",
     name:        "Doctor Doom",
     subtitle:    "Victor",
     cost:        6,
@@ -1562,6 +1666,7 @@ var avengersVsXmenCardData = [
   {
     id: 105,
     dieId: 16,
+    setAbbr:         "AVX",
     name:        "Doctor Octopus",
     subtitle:    "Mad Scientist",
     cost:        6,
@@ -1577,6 +1682,7 @@ var avengersVsXmenCardData = [
   {
     id: 106,
     dieId: 17,
+    setAbbr:         "AVX",
     name:        "Doctor Strange",
     subtitle:    "Probably a Charlatan",
     cost:        7,
@@ -1592,6 +1698,7 @@ var avengersVsXmenCardData = [
   {
     id: 107,
     dieId: 18,
+    setAbbr:         "AVX",
     name:        "Gambit",
     subtitle:    "Cardsharp",
     cost:        5,
@@ -1607,6 +1714,7 @@ var avengersVsXmenCardData = [
   {
     id: 108,
     dieId: 19,
+    setAbbr:         "AVX",
     name:        "Ghost Rider",
     subtitle:    "Brimstone Biker",
     cost:        4,
@@ -1622,6 +1730,7 @@ var avengersVsXmenCardData = [
   {
     id: 109,
     dieId: 20,
+    setAbbr:         "AVX",
     name:        "Green Goblin",
     subtitle:    "Norman Osborn",
     cost:        4,
@@ -1637,6 +1746,7 @@ var avengersVsXmenCardData = [
   {
     id: 110,
     dieId: 21,
+    setAbbr:         "AVX",
     name:        "Hawkeye",
     subtitle:    "Robin Hood",
     cost:        3,
@@ -1652,6 +1762,7 @@ var avengersVsXmenCardData = [
   {
     id: 111,
     dieId: 22,
+    setAbbr:         "AVX",
     name:        "Loki",
     subtitle:    "Gem-Keeper",
     cost:        5,
@@ -1667,6 +1778,7 @@ var avengersVsXmenCardData = [
   {
     id: 112,
     dieId: 23,
+    setAbbr:         "AVX",
     name:        "Magneto",
     subtitle:    "Sonderkommando",
     cost:        6,
@@ -1682,6 +1794,7 @@ var avengersVsXmenCardData = [
   {
     id: 113,
     dieId: 24,
+    setAbbr:         "AVX",
     name:        "Mr. Fantastic",
     subtitle:    "The Invincible Man",
     cost:        5,
@@ -1697,6 +1810,7 @@ var avengersVsXmenCardData = [
   {
     id: 114,
     dieId: 25,
+    setAbbr:         "AVX",
     name:        "Mystique",
     subtitle:    "Could Be Anyone",
     cost:        5,
@@ -1712,6 +1826,7 @@ var avengersVsXmenCardData = [
   {
     id: 115,
     dieId: 26,
+    setAbbr:         "AVX",
     name:        "Nick Fury",
     subtitle:    "Patch",
     cost:        4,
@@ -1727,6 +1842,7 @@ var avengersVsXmenCardData = [
   {
     id: 116,
     dieId: 27,
+    setAbbr:         "AVX",
     name:        "Nightcrawler",
     subtitle:    "Circus Freak",
     cost:        4,
@@ -1742,7 +1858,9 @@ var avengersVsXmenCardData = [
   {
     id: 117,
     dieId: 28,
+    setAbbr:         "AVX",
     name:        "Nova",
+    setAbbr:         "AVX",
     subtitle:    "The Human Rocket",
     cost:        5,
     type:        "Bolt",
@@ -1757,6 +1875,7 @@ var avengersVsXmenCardData = [
   {
     id: 118,
     dieId: 29,
+    setAbbr:         "AVX",
     name:        "Phoenix",
     subtitle:    "Jeannie",
     cost:        7,
@@ -1772,6 +1891,7 @@ var avengersVsXmenCardData = [
   {
     id: 119,
     dieId: 30,
+    setAbbr:         "AVX",
     name:        "Professor X",
     subtitle:    "Charles Francis Xavier",
     cost:        6,
@@ -1787,6 +1907,7 @@ var avengersVsXmenCardData = [
   {
     id: 120,
     dieId: 31,
+    setAbbr:         "AVX",
     name:        "Punisher",
     subtitle:    "Big Nothing",
     cost:        6,
@@ -1802,6 +1923,7 @@ var avengersVsXmenCardData = [
   {
     id: 121,
     dieId: 32,
+    setAbbr:         "AVX",
     name:        "Rogue",
     subtitle:    "Can't Touch This",
     cost:        6,
@@ -1817,6 +1939,7 @@ var avengersVsXmenCardData = [
   {
     id: 122,
     dieId: 33,
+    setAbbr:         "AVX",
     name:        "Silver Surfer",
     subtitle:    "Sky-Rider",
     cost:        7,
@@ -1832,6 +1955,7 @@ var avengersVsXmenCardData = [
   {
     id: 123,
     dieId: 34,
+    setAbbr:         "AVX",
     name:        "Thing",
     subtitle:    "Idol of Millions",
     cost:        7,
@@ -1847,6 +1971,7 @@ var avengersVsXmenCardData = [
   {
     id: 124,
     dieId: 35,
+    setAbbr:         "AVX",
     name:        "Venom",
     subtitle:    "Angelo Fortunato",
     cost:        6,
@@ -1862,6 +1987,7 @@ var avengersVsXmenCardData = [
   {
     id: 125,
     dieId: 36,
+    setAbbr:         "AVX",
     name:        "War Machine",
     subtitle:    "James Rhodes",
     cost:        5,
@@ -1877,6 +2003,7 @@ var avengersVsXmenCardData = [
   {
     id: 126,
     dieId: 37,
+    setAbbr:         "AVX",
     name:        "Wolverine",
     subtitle:    "Formerly Weapon Ten",
     cost:        4,
@@ -1892,6 +2019,7 @@ var avengersVsXmenCardData = [
   {
     id: 127,
     dieId: 38,
+    setAbbr:         "AVX",
     name:        "Mjolnir",
     subtitle:    "Thor's Hammer",
     cost:        4,
@@ -1907,6 +2035,7 @@ var avengersVsXmenCardData = [
   {
     id: 128,
     dieId: 39,
+    setAbbr:         "AVX",
     name:        "Vibranium Shield",
     subtitle:    "Cap's Protection",
     cost:        5,
@@ -1922,6 +2051,7 @@ var avengersVsXmenCardData = [
   {
     id: 129,
     dieId: 11,
+    setAbbr:         "AVX",
     name:        "Black Widow",
     subtitle:    "Tsarina",
     cost:        2,
@@ -1937,6 +2067,7 @@ var avengersVsXmenCardData = [
   {
     id: 130,
     dieId: 20,
+    setAbbr:         "AVX",
     name:        "Green Goblin",
     subtitle:    "\"Gobby\"",
     cost:        3,
@@ -1952,6 +2083,7 @@ var avengersVsXmenCardData = [
   {
     id: 131,
     dieId: 24,
+    setAbbr:         "AVX",
     name:        "Mr. Fantastic",
     subtitle:    "Elastic",
     cost:        4,
@@ -1967,6 +2099,7 @@ var avengersVsXmenCardData = [
   {
     id: 132,
     dieId: 37,
+    setAbbr:         "AVX",
     name:        "Wolverine",
     subtitle:    "Canucklehead",
     cost:        6,
@@ -1978,54 +2111,59 @@ var avengersVsXmenCardData = [
     "** ability":  "",
     global:       "",
     dieLimit:   4
-  }
-];
-
-
-var UncannyXmenCardData = [
+  },
   {
     id: 1,
     dieId: 1,
-    name:        "Angel",
-    subtitle:    "Air Transport",
-    cost:        3,
-    type:        "Shield",
-    affiliation: "X-Men",
-    rarity:      "Starter",
-    ability:     "When fielded, you may field a Sidekick die from your used pile (spin it to its character side).",
-    global:      "",
-    dieLimit:   4
+    setAbbr:          "UX",
+    name:         "Angel",
+    subtitle:     "Air Transport",
+    cost:         3,
+    type:         "Shield",
+    affiliation:  "X-Men",
+    rarity:       "Starter",
+    ability:      "When fielded, you may field a Sidekick die from your used pile (spin it to its character side).",
+    "* ability":  "",
+    "** ability": "",
+    global:       "",
+    dieLimit:     4
   },
   {
     id: 2,
     dieId: 1,
-    name:        "Angel",
-    subtitle:    "Inspiring",
-    cost:        3,
-    type:        "Shield",
-    affiliation: "X-Men",
-    rarity:      "Starter",
-    ability:     "When Angel attacks, your Sidekicks get +1A and +1D (no matter how many Angel dice attack).",
-    global:      "",
-    dieLimit:   4
+    setAbbr:          "UX",
+    name:         "Angel",
+    subtitle:     "Inspiring",
+    cost:         3,
+    type:         "Shield",
+    affiliation:  "X-Men",
+    rarity:       "Starter",
+    ability:      "When Angel attacks, your Sidekicks get +1A and +1D (no matter how many Angel dice attack).",
+    "* ability":  "",
+    "** ability": "",
+    global:       "",
+    dieLimit:     4
   },
   {
     id: 3,
     dieId: 1,
+    setAbbr:          "UX",
     name:        "Angel",
     subtitle:    "Superhero",
     cost:        3,
     type:        "Shield",
     affiliation: "X-Men",
     rarity:      "Starter",
-    ability:     "Heroic: When fielded, Angel may pair up with a different Heroic character until the start of your next turn.
-Once per turn while Angel is paired up, you may pay  [1 Shield] to give Angel and his partner each +2D.",
+    ability:     "Heroic: When fielded, Angel may pair up with a different Heroic character until the start of your next turn. Once per turn while Angel is paired up, you may pay  [1 Shield] to give Angel and his partner each +2D.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 4,
     dieId: 2,
+    setAbbr:         "UX",
     name:        "Cyclops",
     subtitle:    "Optic Blast",
     cost:        6,
@@ -2033,12 +2171,15 @@ Once per turn while Angel is paired up, you may pay  [1 Shield] to give Angel an
     affiliation: "X-Men",
     rarity:      "Starter",
     ability:     "When fielded, Cyclops deals 3 damage to an opposing character. Your opponent may pay 3 life to prevent this.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 5,
     dieId: 2,
+    setAbbr:          "UX",
     name:        "Cyclops",
     subtitle:    "Overlook",
     cost:        6,
@@ -2046,26 +2187,31 @@ Once per turn while Angel is paired up, you may pay  [1 Shield] to give Angel an
     affiliation: "X-Men",
     rarity:      "Starter",
     ability:     "When fielded, Cyclops deals 1 damage to your opponent and each opposing character.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 6,
     dieId: 2,
+    setAbbr:          "UX",
     name:        "Cyclops",
     subtitle:    "Superhero",
     cost:        5,
     type:        "Bolt",
     affiliation: "X-Men",
     rarity:      "Starter",
-    ability:     "Heroic: When fielded, Cyclops may pair up with a different Heroic character until the start of your next turn.
-While Cyclops is paired up, he and his partner each deal 1 damage to the opponent when assigned to attack.",
+    ability:     "Heroic: When fielded, Cyclops may pair up with a different Heroic character until the start of your next turn. While Cyclops is paired up, he and his partner each deal 1 damage to the opponent when assigned to attack.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 7,
     dieId: 3,
+    setAbbr:          "UX",
     name:        "Iceman",
     subtitle:    "Cryokinetic",
     cost:        4,
@@ -2073,12 +2219,15 @@ While Cyclops is paired up, he and his partner each deal 1 damage to the opponen
     affiliation: "X-Men",
     rarity:      "Starter",
     ability:     "",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 8,
     dieId: 3,
+    setAbbr:          "UX",
     name:        "Iceman",
     subtitle:    "Robert Louis Drake",
     cost:        5,
@@ -2086,12 +2235,15 @@ While Cyclops is paired up, he and his partner each deal 1 damage to the opponen
     affiliation: "X-Men",
     rarity:      "Starter",
     ability:     "You may pay  [1 Bolt]  to give Iceman +1A and +1D.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 9,
     dieId: 3,
+    setAbbr:          "UX",
     name:        "Iceman",
     subtitle:    "Too Cool for Words",
     cost:        5,
@@ -2099,12 +2251,15 @@ While Cyclops is paired up, he and his partner each deal 1 damage to the opponen
     affiliation: "X-Men",
     rarity:      "Starter",
     ability:     "Once per turn, you may pay  [1 Bolt]  to double Iceman's attack.",
+    "* ability":  "",
+    "** ability": "",
     global:      "Global: Pay  [1 Bolt]  to spin any number of your Sidekick dice to their  [Bolt] side (if active, move them to your reserve pool).",
     dieLimit:   4
   },
   {
     id: 10,
     dieId: 4,
+    setAbbr:          "UX",
     name:        "Juggernaut",
     subtitle:    "Cain Marko",
     cost:        6,
@@ -2112,12 +2267,15 @@ While Cyclops is paired up, he and his partner each deal 1 damage to the opponen
     affiliation: "Villains",
     rarity:      "Starter",
     ability:     "When Juggernaut takes damage, you may move any or all of your Sidekicks to your used pile. Prevent up to 3 damage to Juggernaut per Sidekick moved.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 11,
     dieId: 4,
+    setAbbr:          "UX",
     name:        "Juggernaut",
     subtitle:    "Unstoppable",
     cost:        7,
@@ -2125,12 +2283,15 @@ While Cyclops is paired up, he and his partner each deal 1 damage to the opponen
     affiliation: "Villains",
     rarity:      "Starter",
     ability:     "Once per turn, you may move one of your Sidekicks to your used pile to give Juggernaut +4A and +4D.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 12,
     dieId: 4,
+    setAbbr:          "UX",
     name:        "Juggernaut",
     subtitle:    "Archvillain",
     cost:        6,
@@ -2138,12 +2299,15 @@ While Cyclops is paired up, he and his partner each deal 1 damage to the opponen
     affiliation: "Villains",
     rarity:      "Starter",
     ability:     "When fielded, if your opponent has no Villains in the field, you may move one of your Sidekicks to your used pile to deal 1 damage to your opponent and gain 1 life.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 13,
     dieId: 5,
+    setAbbr:          "UX",
     name:        "Kitty Pryde",
     subtitle:    "Ariel",
     cost:        2,
@@ -2151,12 +2315,15 @@ While Cyclops is paired up, he and his partner each deal 1 damage to the opponen
     affiliation: "X-Men",
     rarity:      "Starter",
     ability:     "",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 14,
     dieId: 5,
+    setAbbr:          "UX",
     name:        "Kitty Pryde",
     subtitle:    "Sprite",
     cost:        3,
@@ -2164,12 +2331,15 @@ While Cyclops is paired up, he and his partner each deal 1 damage to the opponen
     affiliation: "X-Men",
     rarity:      "Starter",
     ability:     "Kitty Pryde cannot be blocked by Sidekicks.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 15,
     dieId: 5,
+    setAbbr:          "UX",
     name:        "Kitty Pryde",
     subtitle:    "Shadowcat",
     cost:        4,
@@ -2177,12 +2347,15 @@ While Cyclops is paired up, he and his partner each deal 1 damage to the opponen
     affiliation: "X-Men",
     rarity:      "Starter",
     ability:     "Kitty Pryde cannot be blocked on the turn she is fielded.",
+    "* ability":  "",
+    "** ability": "",
     global:      "Global: Pay  [1 Mask] . Target character cannot attack this turn unless its owner pays 1 life.",
     dieLimit:   4
   },
   {
     id: 16,
     dieId: 6,
+    setAbbr:          "UX",
     name:        "Magneto",
     subtitle:    "Field Control",
     cost:        6,
@@ -2190,12 +2363,15 @@ While Cyclops is paired up, he and his partner each deal 1 damage to the opponen
     affiliation: "Villains",
     rarity:      "Starter",
     ability:     "When fielded, you may pay   [2 Mask] to move a character from the field or reserve pool to its owner's prep area.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 17,
     dieId: 6,
+    setAbbr:          "UX",
     name:        "Magneto",
     subtitle:    "Will to Live",
     cost:        5,
@@ -2203,25 +2379,31 @@ While Cyclops is paired up, he and his partner each deal 1 damage to the opponen
     affiliation: "Villains",
     rarity:      "Starter",
     ability:     "If Magneto leaves the field, he goes to your prep area instead of the used pile or dice bag.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 18,
     dieId: 6,
+    setAbbr:          "UX",
     name:        "Magneto",
     subtitle:    "Archvillain",
     cost:        6,
     type:        "Mask",
-    affiliation: Villains"",
+    affiliation: "Villains",
     rarity:      "Starter",
     ability:     "If your opponent has no Villains in the field, Magneto gains +3A and +3D.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 19,
     dieId: 7,
+    setAbbr:          "UX",
     name:        "Quicksilver",
     subtitle:    "Pietro Maximoff",
     cost:        3,
@@ -2229,12 +2411,15 @@ While Cyclops is paired up, he and his partner each deal 1 damage to the opponen
     affiliation: "X-Men",
     rarity:      "Starter",
     ability:     "When fielded, Quicksilver deals 1 damage to one opposing character.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 20,
     dieId: 7,
+    setAbbr:          "UX",
     name:        "Quicksilver",
     subtitle:    "Thanks to Isotope E",
     cost:        4,
@@ -2242,12 +2427,15 @@ While Cyclops is paired up, he and his partner each deal 1 damage to the opponen
     affiliation: "X-Men",
     rarity:      "Starter",
     ability:     "When fielded, Quicksilver deals 1 damage to each opposing Sidekick.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 21,
     dieId: 7,
+    setAbbr:          "UX",
     name:        "Quicksilver",
     subtitle:    "Former Villain",
     cost:        4,
@@ -2255,12 +2443,15 @@ While Cyclops is paired up, he and his partner each deal 1 damage to the opponen
     affiliation: "X-Men",
     rarity:      "Starter",
     ability:     "When Quicksilver is blocked, he deals 1 damage to each opposing character (this extra damage resolves before normal combat damage is assigned).",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 22,
     dieId: 8,
+    setAbbr:          "UX",
     name:        "Wolverine",
     subtitle:    "The Best There Is",
     cost:        5,
@@ -2268,12 +2459,15 @@ While Cyclops is paired up, he and his partner each deal 1 damage to the opponen
     affiliation: "X-Men",
     rarity:      "Starter",
     ability:     "Wolverine deals double damage to characters that block him.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 23,
     dieId: 8,
+    setAbbr:          "UX",
     name:        "Wolverine",
     subtitle:    "Not Very Nice",
     cost:        6,
@@ -2281,26 +2475,31 @@ While Cyclops is paired up, he and his partner each deal 1 damage to the opponen
     affiliation: "X-Men",
     rarity:      "Starter",
     ability:     "When Wolverine is blocked, you may pay   [2 Fist] to have him deal damage equal to his attack to one character blocking him (this extra damage resolves before normal combat damage is assigned).",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 24,
     dieId: 8,
+    setAbbr:          "UX",
     name:        "Wolverine",
     subtitle:    "Superhero",
     cost:        6,
     type:        "Fist",
     affiliation: "X-Men",
     rarity:      "Starter",
-    ability:     "Heroic: When fielded, Wolverine may pair up with a different Heroic character until the start of your next turn.
-While Wolverine is paired up, he and his partner can only be blocked by two or more characters (each).",
+    ability:     "Heroic: When fielded, Wolverine may pair up with a different Heroic character until the start of your next turn. While Wolverine is paired up, he and his partner can only be blocked by two or more characters (each).",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 25,
     dieId: 9,
+    setAbbr:          "UX",
     name:        "Basic Action Card",
     subtitle:    "Ambush",
     cost:        3,
@@ -2308,12 +2507,15 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "None",
     rarity:      "Starter",
     ability:     "One of your characters gets +1A for each character your opponent has in the field.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   3
+    dieLimit:    3
   },
   {
     id: 26,
     dieId: 9,
+    setAbbr:          "UX",
     name:        "Basic Action Card",
     subtitle:    "Enrage",
     cost:        3,
@@ -2321,12 +2523,15 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "None",
     rarity:      "Starter",
     ability:     "Choose a character. That character must attack at its next opportunity. Spin that character up one level (if able).",
+    "* ability":  "",
+    "** ability": "",
     global:      "Global: Pay  [1 Bolt] . Give one character +1A.",
-    dieLimit:   3
+    dieLimit:    3
   },
   {
     id: 27,
     dieId: 9,
+    setAbbr:          "UX",
     name:        "Basic Action Card",
     subtitle:    "Feedback",
     cost:        3,
@@ -2334,12 +2539,15 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "None",
     rarity:      "Starter",
     ability:     "Deal 1 damage to your opponent for each of his characters that is knocked out for the rest of this turn.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   3
+    dieLimit:    3
   },
   {
     id: 28,
     dieId: 9,
+    setAbbr:          "UX",
     name:        "Basic Action Card",
     subtitle:    "Imprisoned",
     cost:        4,
@@ -2347,77 +2555,95 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "None",
     rarity:      "Starter",
     ability:     "This die captures any number of opposing characters with a total fielding cost of 2 or less. This effect lasts until canceled or you damage your opponent (return the captured die to the field).",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   3
+    dieLimit:    3
   },
   {
     id: 29,
     dieId: 9,
+    setAbbr:          "UX",
     name:        "Basic Action Card",
     subtitle:    "Possession",
     cost:        4,
     type:        "Generic",
     affiliation: "None",
     rarity:      "Starter",
-    ability:     "At the start of your attack step, take control of an opposing character with a level lower than one of your characters. Attack with it.", "** Instead, take control of an opposing character with an equal or lower level.",
+    ability:     "At the start of your attack step, take control of an opposing character with a level lower than one of your characters. Attack with it.",
+    "* ability":  "",
+    "** ability": "** Instead, take control of an opposing character with an equal or lower level.",
     global:      "",
-    dieLimit:   3
+    dieLimit:    3
   },
   {
     id: 30,
     dieId: 9,
+    setAbbr:          "UX",
     name:        "Basic Action Card",
     subtitle:    "Reckless Melee",
     cost:        3,
     type:        "Generic",
     affiliation: "None",
     rarity:      "Starter",
-    ability:     "Deal 1 damage to each character (including yours).", "* Instead, deal 1 damage to each player.", "** Instead, deal 1 damage to each player and 1 damage to each character.",
+    ability:     "Deal 1 damage to each character (including yours).",
+    "* ability":  "* Instead, deal 1 damage to each player.",
+    "** ability": "** Instead, deal 1 damage to each player and 1 damage to each character.",
     global:      "",
-    dieLimit:   3
+    dieLimit:    3
   },
   {
     id: 31,
     dieId: 9,
+    setAbbr:          "UX",
     name:        "Basic Action Card",
     subtitle:    "Relentless",
     cost:        4,
     type:        "Generic",
     affiliation: "None",
     rarity:      "Starter",
-    ability:     "Spin this die to a generic energy side. Reroll a character or Sidekick die from your reserve pool."
+    ability:     "Spin this die to a generic energy side. Reroll a character or Sidekick die from your reserve pool.",
+    "* ability":  "",
+    "** ability": "",
     global:      "Global: Pay  [1 Mask] . Target character cannot block.",
-    dieLimit:   3
+    dieLimit:    3
   },
   {
     id: 32,
     dieId: 9,
+    setAbbr:          "UX",
     name:        "Basic Action Card",
     subtitle:    "Selective Shield",
     cost:        4,
     type:        "Generic",
     affiliation: "None",
     rarity:      "Starter",
-    ability:     "Choose an energy type. Characters of that type cannot attack until your next turn.", "** Also choose one character of that type. That character cannot block until your next turn.",
+    ability:     "Choose an energy type. Characters of that type cannot attack until your next turn.",
+    "* ability":  "",
+    "** ability": "** Also choose one character of that type. That character cannot block until your next turn.",
     global:      "Global: Pay  [1 Fist] . Target blocked character deals no damage.",
     dieLimit:   3
   },
   {
     id: 33,
     dieId: 9,
+    setAbbr:          "UX",
     name:        "Basic Action Card",
     subtitle:    "Take That, Villain!",
     cost:        3,
     type:        "Generic",
     affiliation: "None",
     rarity:      "Starter",
-    ability:     "Deal 3 damage to a Villain.", "** Deal an extra 1 damage to that Villain.",
+    ability:     "Deal 3 damage to a Villain.",
+    "* ability":  "",
+    "** ability": "** Deal an extra 1 damage to that Villain.",
     global:      "",
-    dieLimit:   3
+    dieLimit:    3
   },
   {
     id: 34,
     dieId: 9,
+    setAbbr:          "UX",
     name:        "Basic Action Card",
     subtitle:    "Transfer Power",
     cost:        3,
@@ -2425,12 +2651,15 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "None",
     rarity:      "Starter",
     ability:     "Roll a character die from your used pile. If it rolls a character face, field it at no cost. Otherwise, place it in your bag.",
+    "* ability":  "",
+    "** ability": "",
     global:      "Global: Pay  [1 Shield] . Swap the attack value of one of your characters with that of one opposing character.",
-    dieLimit:   3
+    dieLimit:    3
   },
   {
     id: 35,
     dieId: 10,
+    setAbbr:          "UX",
     name:        "Ant-Man",
     subtitle:    "Biophysicist",
     cost:        2,
@@ -2438,12 +2667,15 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "Avengers",
     rarity:      "Common",
     ability:     "",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 36,
     dieId: 11,
+    setAbbr:          "UX",
     name:        "Apocalypse",
     subtitle:    "Awakened",
     cost:        6,
@@ -2451,25 +2683,31 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "Villains",
     rarity:      "Common",
     ability:     "Apocalypse gets +5D on the turn he is fielded.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 37,
     dieId: 12,
+    setAbbr:          "UX",
     name:        "Bishop",
     subtitle:    "Omega Squad",
     cost:        5,
     type:        "Shield",
     affiliation: "X-Men",
     rarity:      "Common",
-    ability:     "Bishop cannot be damaged by  [Bolt]  characters.",
+    ability:     "Bishop cannot be damaged by [Bolt] characters.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 38,
     dieId: 13,
+    setAbbr:          "UX",
     name:        "Black Panther",
     subtitle:    "Wakanda Chief",
     cost:        4,
@@ -2477,12 +2715,15 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "Avengers",
     rarity:      "Common",
     ability:     "Black Panther can only attack if your opponent has a character in the field.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 39,
     dieId: 14,
+    setAbbr:          "UX",
     name:        "Cable",
     subtitle:    "Man of Action",
     cost:        4,
@@ -2490,12 +2731,15 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "None",
     rarity:      "Common",
     ability:     "When Cable is blocked, deal 1 damage to an enemy character.",
+    "* ability":  "",
+    "** ability": "",
     global:      "Global: Pay   [2 Bolt] . Deal 1 damage to target enemy character. That character must block this turn (if able).",
     dieLimit:   4
   },
   {
     id: 40,
     dieId: 15,
+    setAbbr:          "UX",
     name:        "Captain America",
     subtitle:    "Special Ops",
     cost:        5,
@@ -2503,12 +2747,15 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "Avengers",
     rarity:      "Common",
     ability:     "When fielded, move an opposing Villain to the prep area.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 41,
     dieId: 16,
+    setAbbr:          "UX",
     name:        "Emma Frost",
     subtitle:    "Archvillain",
     cost:        5,
@@ -2516,12 +2763,15 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "Villains",
     rarity:      "Common",
     ability:     "If your opponent has no Villain characters active, prevent all damage to Emma Frost from  [Fist]  characters.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 42,
     dieId: 17,
+    setAbbr:          "UX",
     name:        "Falcon",
     subtitle:    "Samuel Wilson",
     cost:        2,
@@ -2529,25 +2779,31 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "Avengers",
     rarity:      "Common",
     ability:     "",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 43,
     dieId: 18,
+    setAbbr:          "UX",
     name:        "Iron Man",
     subtitle:    "Upright",
     cost:        5,
     type:        "Shield",
     affiliation: "Avengers",
     rarity:      "Common",
-    ability:     "Iron Man takes 1 less damage from Villains.", "* Iron Man takes 2 less damage instead.",
+    ability:     "Iron Man takes 1 less damage from Villains.",
+    "* ability":  "",
+    "** ability": "* Iron Man takes 2 less damage instead.",
     global:      "Global: Pay  [1 Shield] . Target character gains the Villain affiliation.",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 44,
     dieId: 19,
+    setAbbr:          "UX",
     name:        "Magik",
     subtitle:    "Illyana Rasputina",
     cost:        4,
@@ -2555,12 +2811,15 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "None",
     rarity:      "Common",
     ability:     "When Magik is knocked out, reroll her die. If you roll a character face, return Magik to the field.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 45,
     dieId: 20,
+    setAbbr:          "UX",
     name:        "Marvel Girl",
     subtitle:    "Telekinetic",
     cost:        6,
@@ -2568,12 +2827,15 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "X-Men",
     rarity:      "Common",
     ability:     "When fielded, spin each opposing character down one level (if able).",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 46,
     dieId: 21,
+    setAbbr:          "UX",
     name:        "Mister Sinister",
     subtitle:    "Archvillain",
     cost:        6,
@@ -2581,12 +2843,15 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "Villains",
     rarity:      "Common",
     ability:     "While Mr. Sinister is active, if your opponent has no Villain characters fielded, each of your characters gains +2D.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 47,
     dieId: 22,
+    setAbbr:          "UX",
     name:        "Mystique",
     subtitle:    "Ageless",
     cost:        3,
@@ -2594,12 +2859,15 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "Villains",
     rarity:      "Common",
     ability:     "Mystique gets +1A and +1D for each die in your prep area.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 48,
     dieId: 23,
+    setAbbr:          "UX",
     name:        "Namor",
     subtitle:    "The Sub-Mariner",
     cost:        5,
@@ -2607,12 +2875,15 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "X-Men",
     rarity:      "Common",
     ability:     "If you have at least two other characters fielded, Namor cannot be blocked.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 49,
     dieId: 24,
+    setAbbr:          "UX",
     name:        "Professor X",
     subtitle:    "Recruiting Young Mutants",
     cost:        6,
@@ -2620,12 +2891,15 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "X-Men",
     rarity:      "Common",
     ability:     "When fielded, search your bag for up to 2 Sidekick dice and roll them.",
+    "* ability":  "",
+    "** ability": "",
     global:      "Global: Pay  [1 Mask] . Move up to 2 Sidekick dice from your used pile to your prep area.",
     dieLimit:   4
   },
   {
     id: 50,
     dieId: 25,
+    setAbbr:          "UX",
     name:        "Psylocke",
     subtitle:    "Betsy Braddock",
     cost:        4,
@@ -2633,12 +2907,15 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "X-Men",
     rarity:      "Common",
     ability:     "When fielded, move one opposing character with cost 2 or less, including Sidekicks, to the used pile.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 51,
     dieId: 26,
+    setAbbr:          "UX",
     name:        "Pyro",
     subtitle:    "Saint-John Allerdyce",
     cost:        4,
@@ -2646,12 +2923,15 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "Villains",
     rarity:      "Common",
     ability:     "When Pyro is blocked, he deals 1 damage to your opponent.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 52,
     dieId: 27,
+    setAbbr:          "UX",
     name:        "Red Hulk",
     subtitle:    "Thunderbolt Ross",
     cost:        6,
@@ -2659,12 +2939,15 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "None",
     rarity:      "Common",
     ability:     "* If Red Hulk is damaged in an attack phase but not knocked out, spin him up one level at the end of the turn.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 53,
     dieId: 28,
+    setAbbr:          "UX",
     name:        "Sabretooth",
     subtitle:    "Something to Prove",
     cost:        4,
@@ -2672,12 +2955,15 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "Villains",
     rarity:      "Common",
     ability:     "At the beginning of your turn, spin each of your fielded Sabretooth dice up one level.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 54,
     dieId: 29,
+    setAbbr:          "UX",
     name:        "Scarlet Witch",
     subtitle:    "Wanda Maximoff",
     cost:        3,
@@ -2685,12 +2971,15 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "Villains",
     rarity:      "Common",
     ability:     "When fielded, Scarlet Witch deals 1 damage to each opposing X-Men character for each other Villain you have in the field.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 55,
     dieId: 30,
+    setAbbr:          "UX",
     name:        "Sentinel",
     subtitle:    "Mutant Hunter",
     cost:        6,
@@ -2698,12 +2987,15 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "Villains",
     rarity:      "Common",
     ability:     "When Sentinel attacks, you can force one X-Men character to block it (if able).",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 56,
     dieId: 31,
+    setAbbr:          "UX",
     name:        "She-Hulk",
     subtitle:    "Jennifer Walters",
     cost:        5,
@@ -2711,12 +3003,15 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "Avengers",
     rarity:      "Common",
     ability:     "If She-Hulk is blocked, spin her up one level (this happens before damage is assigned).",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 57,
     dieId: 32,
+    setAbbr:          "UX",
     name:        "Spider-Man",
     subtitle:    "Hero for Hire",
     cost:        5,
@@ -2724,12 +3019,15 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "None",
     rarity:      "Common",
     ability:     "When Spider-Man attacks, choose one opposing character. That character cannot block.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 58,
     dieId: 33,
+    setAbbr:          "UX",
     name:        "Storm",
     subtitle:    "Weather Witch",
     cost:        2,
@@ -2737,25 +3035,31 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "X-Men",
     rarity:      "Common",
     ability:     "Storm takes no damage from action dice.",
+    "* ability":  "",
+    "** ability": "",
     global:      "Global: Pay  [1 Mask] . Change the target of an action die that targets a character die to the character die of your choice.",
     dieLimit:   4
   },
   {
     id: 59,
     dieId: 34,
+    setAbbr:          "UX",
     name:        "Toad",
     subtitle:    "Tongue Lashing",
     cost:        5,
     type:        "Fist",
     affiliation: "Villains",
     rarity:      "Common",
-    ability:     "While Toad is active, each opposing non-Sidekick character must attack (if legal).", "* Opposing characters take 2 damage when they attack."
+    ability:     "While Toad is active, each opposing non-Sidekick character must attack (if legal).",
+    "* ability":  "",
+    "** ability": "* Opposing characters take 2 damage when they attack.",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 60,
     dieId: 35,
+    setAbbr:          "UX",
     name:        "Vision",
     subtitle:    "Density Control",
     cost:        4,
@@ -2763,12 +3067,15 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "Avengers",
     rarity:      "Common",
     ability:     "When Vision blocks, you may spin him up one level.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 61,
     dieId: 36,
+    setAbbr:          "UX",
     name:        "X-23",
     subtitle:    "Scent of Murder",
     cost:        4,
@@ -2776,12 +3083,15 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "None",
     rarity:      "Common",
     ability:     "X-23 cannot block.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 62,
     dieId: 37,
+    setAbbr:          "UX",
     name:        "Cerebro",
     subtitle:    "Cybernetic Intelligence",
     cost:        5,
@@ -2789,12 +3099,15 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "None",
     rarity:      "Common",
     ability:     "Place Cerebro on an X-Men die's card. It remains there until you or a card effect removes it (it is still in the field). When you field a die from that card, knock out one opposing die.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   1
+    dieLimit:    1
   },
   {
     id: 63,
     dieId: 1,
+    setAbbr:          "UX",
     name:        "Angel",
     subtitle:    "Flying High",
     cost:        3,
@@ -2802,12 +3115,15 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "X-Men",
     rarity:      "Uncommon",
     ability:     "When Angel attacks, all other  [Shield]  characters must be blocked before Angel dice can be blocked.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 64,
     dieId: 10,
+    setAbbr:          "UX",
     name:        "Ant-Man",
     subtitle:    "Pym Particles",
     cost:        3,
@@ -2815,12 +3131,15 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "Avengers",
     rarity:      "Uncommon",
     ability:     "Ant-Man gets +2D while attacking.",
+    "* ability":  "",
+    "** ability": "",
     global:      "Global: Pay  [1 Fist] . Switch the A and D values of one of your characters.",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 65,
     dieId: 11,
+    setAbbr:          "UX",
     name:        "Apocalypse",
     subtitle:    "Archvillain",
     cost:        6,
@@ -2828,25 +3147,31 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "Villains",
     rarity:      "Uncommon",
     ability:     "While your opponent has no Villain characters fielded, prevent all damage to Apocalypse.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   2
+    dieLimit:    2
   },
   {
     id: 66,
     dieId: 12,
+    setAbbr:          "UX",
     name:        "Bishop",
     subtitle:    "Branded a Mutant",
     cost:        4,
     type:        "Shield",
     affiliation: "None",
     rarity:      "Uncommon",
-    ability:     "Bishop gets +2A when engaged with a  [Bolt]  character.",
+    ability:     "Bishop gets +2A when engaged with a [Bolt] character.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 67,
     dieId: 13,
+    setAbbr:          "UX",
     name:        "Black Panther",
     subtitle:    "T'Challa",
     cost:        5,
@@ -2854,12 +3179,15 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "None",
     rarity:      "Uncommon",
     ability:     "Black Panther gets +2A when attacking alone.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 68,
     dieId: 14,
+    setAbbr:          "UX",
     name:        "Cable",
     subtitle:    "Techno-Organic",
     cost:        5,
@@ -2867,12 +3195,15 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "None",
     rarity:      "Uncommon",
     ability:     "When Cable is blocked, deal 2 damage to each enemy character.",
+    "* ability":  "",
+    "** ability": "",
     global:      "Global: Pay   [2 Bolt] . Deal 1 damage to target enemy character. That character must block this turn (if able).",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 69,
     dieId: 15,
+    setAbbr:          "UX",
     name:        "Captain America",
     subtitle:    "'Follow Me!'",
     cost:        4,
@@ -2880,12 +3211,15 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "Avengers",
     rarity:      "Uncommon",
     ability:     "When fielded, the next character you field this turn can be fielded for free.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 70,
     dieId: 2,
+    setAbbr:          "UX",
     name:        "Cyclops",
     subtitle:    "Field Leader",
     cost:        5,
@@ -2893,12 +3227,15 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "X-Men",
     rarity:      "Uncommon",
     ability:     "While Cyclops is active, whenever one of your  [Bolt]  characters deals damage, increase that damage by one (no matter how many Cyclops dice you have fielded).",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 71,
     dieId: 17,
+    setAbbr:          "UX",
     name:        "Falcon",
     subtitle:    "Recon",
     cost:        3,
@@ -2906,12 +3243,15 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "None",
     rarity:      "Uncommon",
     ability:     "When Falcon attacks, your Sidekicks can't be blocked.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 72,
     dieId: 3,
+    setAbbr:          "UX",
     name:        "Iceman",
     subtitle:    "Mister Friese",
     cost:        4,
@@ -2919,12 +3259,15 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "X-Men",
     rarity:      "Uncommon",
     ability:     "The first time each turn you field another character, Iceman gains +3A (no matter how many Iceman dice you have fielded).",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 73,
     dieId: 4,
+    setAbbr:          "UX",
     name:        "Juggernaut",
     subtitle:    "Kuurth",
     cost:        5,
@@ -2932,12 +3275,15 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "Villains",
     rarity:      "Uncommon",
     ability:     "If your opponent has no Villains in the field, each Juggernaut die can block one additional opposing die (no matter how many Juggernaut dice you have fielded).",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 74,
     dieId: 5,
+    setAbbr:          "UX",
     name:        "Kitty Pryde",
     subtitle:    "Just a Phase",
     cost:        5,
@@ -2945,12 +3291,15 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "X-Men",
     rarity:      "Uncommon",
     ability:     "When Kitty Pryde is blocked, you may pay  [1 Mask]  to move one character blocking her out of the attack zone (it remains in the field; Kitty Pryde remains blocked).",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 75,
     dieId: 19,
+    setAbbr:          "UX",
     name:        "Magik",
     subtitle:    "Lightchylde",
     cost:        4,
@@ -2958,12 +3307,15 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     affiliation: "X-Men",
     rarity:      "Uncommon",
     ability:     "When Magik blocks, draw a die from your bag. If it is not a Sidekick, remove Magik and the attacker from the attack zone (they remain in the field). Return the drawn die to your bag.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 76,
     dieId: 6,
+    setAbbr:          "UX",
     name:        "Magneto",
     subtitle:    "Hellfire Club",
     cost:        7,
@@ -2972,25 +3324,28 @@ While Wolverine is paired up, he and his partner can only be blocked by two or m
     rarity:      "Uncommon",
     ability:     "While Magneto is active, if your opponent has no Villains in the field, he takes 2 damage each time he draws one or more dice from his bag.",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 77,
     dieId: 20,
+    setAbbr:          "UX",
     name:        "Marvel Girl",
     subtitle:    "Superhero",
     cost:        5,
     type:        "Bolt",
     affiliation: "X-Men",
     rarity:      "Uncommon",
-    ability:     "Heroic: When fielded, Marvel Girl may pair up with a different Heroic character until the start of your next turn.
-While Marvel Girl is paired up, when she or her partner attacks, you may spin down one non-Heroic character and gain 1 life.",
+    ability:     "Heroic: When fielded, Marvel Girl may pair up with a different Heroic character until the start of your next turn. While Marvel Girl is paired up, when she or her partner attacks, you may spin down one non-Heroic character and gain 1 life.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 78,
     dieId: 21,
+    setAbbr:          "UX",
     name:        "Mister Sinister",
     subtitle:    "Nasty Boy",
     cost:        5,
@@ -2998,12 +3353,15 @@ While Marvel Girl is paired up, when she or her partner attacks, you may spin do
     affiliation: "Villains",
     rarity:      "Uncommon",
     ability:     "While Mr. Sinister is active, whenever a Villain is knocked out (either player's), deal 1 damage to your opponent.",
+    "* ability":  "",
+    "** ability": "",
     global:      "Global: Pay   [2 Bolt] . Each player chooses one of his characters to take 3 damage.",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 79,
     dieId: 22,
+    setAbbr:          "UX",
     name:        "Mystique",
     subtitle:    "Raven Darkholme",
     cost:        3,
@@ -3011,12 +3369,15 @@ While Marvel Girl is paired up, when she or her partner attacks, you may spin do
     affiliation: "Villains",
     rarity:      "Uncommon",
     ability:     "Mystique gets +1A and +1D for each other Villain in the field (both players').",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 80,
     dieId: 23,
+    setAbbr:          "UX",
     name:        "Namor",
     subtitle:    "Atlantean",
     cost:        4,
@@ -3024,26 +3385,31 @@ While Marvel Girl is paired up, when she or her partner attacks, you may spin do
     affiliation: "Avengers",
     rarity:      "Uncommon",
     ability:     "When Namor blocks, you may cancel one active action effect. Move that action die to its owner's used pile if necessary.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 81,
     dieId: 24,
+    setAbbr:          "UX",
     name:        "Professor X",
     subtitle:    "Founder",
     cost:        6,
     type:        "Mask",
     affiliation: "X-Men",
     rarity:      "Uncommon",
-    ability:     "Heroic: When fielded, Professor X may pair up with a different Heroic character until the start of your next turn.
-While Professor X is paired up, gain 1 life when either he and/or his partner attack.",
+    ability:     "Heroic: When fielded, Professor X may pair up with a different Heroic character until the start of your next turn. While Professor X is paired up, gain 1 life when either he and/or his partner attack.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 82,
     dieId: 25,
+    setAbbr:          "UX",
     name:        "Psylocke",
     subtitle:    "Ninjutsu",
     cost:        3,
@@ -3051,12 +3417,15 @@ While Professor X is paired up, gain 1 life when either he and/or his partner at
     affiliation: "None",
     rarity:      "Uncommon",
     ability:     "When fielded, choose one opposing Sidekick or character with a purchase cost of 2 or less. If it is at level one, knock it out. Otherwise, spin it down one level.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 83,
     dieId: 26,
+    setAbbr:          "UX",
     name:        "Pyro",
     subtitle:    "Pyrokinetic",
     cost:        4,
@@ -3064,12 +3433,15 @@ While Professor X is paired up, gain 1 life when either he and/or his partner at
     affiliation: "Villains",
     rarity:      "Uncommon",
     ability:     "When Pyro attacks, pay up to   [2 Bolts] . Deal 1 damage to your opponent for each  [Bolt] spent.",
+    "* ability":  "",
+    "** ability": "",
     global:      "Global: Pay  [1 Bolt] . Draw and roll 2 dice from your bag. Keep any  [Bolt] results rolled. Return the rest to your bag.",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 84,
     dieId: 7,
+    setAbbr:          "UX",
     name:        "Quicksilver",
     subtitle:    "Villainous",
     cost:        4,
@@ -3077,25 +3449,31 @@ While Professor X is paired up, gain 1 life when either he and/or his partner at
     affiliation: "Villains",
     rarity:      "Uncommon",
     ability:     "When Quicksilver is fielded or knocked out, deal 2 damage to each X-Men character in play (including yours).",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 85,
     dieId: 27,
+    setAbbr:          "UX",
     name:        "Red Hulk",
     subtitle:    "a.k.a. Rulk",
     cost:        7,
     type:        "Fist",
     affiliation: "None",
     rarity:      "Uncommon",
-    ability:     "While Red Hulk is active, when an opposing Sidekick is knocked out, your opponent loses 1 life (no matter how many Red Hulk dice you have fielded).", "* If Red Hulk knocks out a Sidekick, your opponent loses 2 additional life.",
+    ability:     "While Red Hulk is active, when an opposing Sidekick is knocked out, your opponent loses 1 life (no matter how many Red Hulk dice you have fielded).",
+    "* ability":  "* If Red Hulk knocks out a Sidekick, your opponent loses 2 additional life.",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 86,
     dieId: 28,
+    setAbbr:          "UX",
     name:        "Sabretooth",
     subtitle:    "Survivor",
     cost:        4,
@@ -3103,12 +3481,15 @@ While Professor X is paired up, gain 1 life when either he and/or his partner at
     affiliation: "Villains",
     rarity:      "Uncommon",
     ability:     "When Sabretooth takes enough damage to knock him out while he is at level 2 or 3, spin him down one level and reduce the damage he has taken to zero.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 87,
     dieId: 30,
+    setAbbr:          "UX",
     name:        "Sentinel",
     subtitle:    "Archvillain",
     cost:        7,
@@ -3116,12 +3497,15 @@ While Professor X is paired up, gain 1 life when either he and/or his partner at
     affiliation: "Villains",
     rarity:      "Uncommon",
     ability:     "When fielded, if your opponent has no Villains fielded, knock out all opposing X-Men characters. Your opponent takes 1 damage for each character knocked out in this way.",
+    "* ability":  "",
+    "** ability": "",
     global:      "Global: Pay  [1 Shield] . One X-Men character must block this turn (if able).",
-    dieLimit:   2
+    dieLimit:    2
   },
   {
     id: 88,
     dieId: 31,
+    setAbbr:          "UX",
     name:        "She-Hulk",
     subtitle:    "Lady Liberator",
     cost:        5,
@@ -3129,26 +3513,31 @@ While Professor X is paired up, gain 1 life when either he and/or his partner at
     affiliation: "None",
     rarity:      "Uncommon",
     ability:     "She-Hulk can only be blocked by two or more characters.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 89,
     dieId: 31,
+    setAbbr:          "UX",
     name:        "Storm",
     subtitle:    "Superhero",
     cost:        3,
     type:        "Mask",
     affiliation: "X-Men",
     rarity:      "Uncommon",
-    ability:     "Heroic: When fielded, Storm may pair up with a different Heroic character until the start of your next turn.
-While Storm is paired up, she and her partner can't be targeted by action dice.",
+    ability:     "Heroic: When fielded, Storm may pair up with a different Heroic character until the start of your next turn. While Storm is paired up, she and her partner can't be targeted by action dice.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 90,
     dieId: 32,
+    setAbbr:          "UX",
     name:        "Toad",
     subtitle:    "Sniveling Servant",
     cost:        4,
@@ -3156,12 +3545,15 @@ While Storm is paired up, she and her partner can't be targeted by action dice."
     affiliation: "Villains",
     rarity:      "Uncommon",
     ability:     "While Toad is active, when your opponent commits a character to attack, choose one opposing character who must also attack. If Toad blocks that character, cut its attack value in half (round down).",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 91,
     dieId: 35,
+    setAbbr:          "UX",
     name:        "Vision",
     subtitle:    "Android",
     cost:        4,
@@ -3169,26 +3561,31 @@ While Storm is paired up, she and her partner can't be targeted by action dice."
     affiliation: "Avengers",
     rarity:      "Uncommon",
     ability:     "Vision takes no damage from  [Mask] characters.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 92,
     dieId: 8,
+    setAbbr:          "UX",
     name:        "Wolverine",
     subtitle:    "Antihero",
     cost:        5,
     type:        "Fist",
     affiliation: "None",
     rarity:      "Uncommon",
-    ability:     "Heroic: When fielded, Wolverine may pair up with a different Heroic character until the start of your next turn.
-While Wolverine is paired up, prevent all damage to him and his partner from  [Fist]  and  [Shield]  dice.",
+    ability:     "Heroic: When fielded, Wolverine may pair up with a different Heroic character until the start of your next turn. While Wolverine is paired up, prevent all damage to him and his partner from [Fist] and [Shield] dice.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 93,
     dieId: 36,
+    setAbbr:          "UX",
     name:        "X-23",
     subtitle:    "Assassin",
     cost:        6,
@@ -3196,12 +3593,15 @@ While Wolverine is paired up, prevent all damage to him and his partner from  [F
     affiliation: "None",
     rarity:      "Uncommon",
     ability:     "When X-23 attacks, choose a  [Fist]  or  [Bolt]  character. That character must block her (if able).",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   4
+    dieLimit:    4
   },
   {
     id: 94,
     dieId: 37,
+    setAbbr:          "UX",
     name:        "Cerebro",
     subtitle:    "Supercomputer",
     cost:        3,
@@ -3209,12 +3609,15 @@ While Wolverine is paired up, prevent all damage to him and his partner from  [F
     affiliation: "None",
     rarity:      "Uncommon",
     ability:     "Place Cerebro on a character card. It remains there until you or a card effect removes it (it is still in the field). Your opponent's dice from that card cost a minimum of 2 energy to field. This cost can't be reduced.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
-    dieLimit:   3
+    dieLimit:    3
   },
   {
     id: 95,
     dieId: 10,
+    setAbbr:          "UX",
     name:        "Ant-Man",
     subtitle:    "The Insect World",
     cost:        3,
@@ -3222,12 +3625,15 @@ While Wolverine is paired up, prevent all damage to him and his partner from  [F
     affiliation: "Avengers",
     rarity:      "Rare",
     ability:     "When fielded, you may pay 1 life to spin Ant-Man up one level.",
+    "* ability":  "",
+    "** ability": "",
     global:      "Global: Pay  [1 Fist] . Switch the A and D values of one of your characters.",
     dieLimit:   4
   },
   {
     id: 96,
     dieId: 11,
+    setAbbr:          "UX",
     name:        "Apocalypse",
     subtitle:    "Time of Testing",
     cost:        6,
@@ -3235,12 +3641,15 @@ While Wolverine is paired up, prevent all damage to him and his partner from  [F
     affiliation: "Villains",
     rarity:      "Rare",
     ability:     "* After Apocalypse is knocked out, return him to the field and spin him down one level.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 97,
     dieId: 12,
+    setAbbr:          "UX",
     name:        "Bishop",
     subtitle:    "XSE",
     cost:        5,
@@ -3248,12 +3657,15 @@ While Wolverine is paired up, prevent all damage to him and his partner from  [F
     affiliation: "None",
     rarity:      "Rare",
     ability:     "For each 2 damage dealt to Bishop in combat, deal 1 damage to an opposing character.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 98,
     dieId: 13,
+    setAbbr:          "UX",
     name:        "Black Panther",
     subtitle:    "Diversion",
     cost:        5,
@@ -3261,12 +3673,15 @@ While Wolverine is paired up, prevent all damage to him and his partner from  [F
     affiliation: "Avengers",
     rarity:      "Rare",
     ability:     "If Black Panther does not attack, you may choose an opposing non- [Fist] character. That character cannot block.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 99,
     dieId: 14,
+    setAbbr:          "UX",
     name:        "Cable",
     subtitle:    "Time Traveler",
     cost:        5,
@@ -3274,26 +3689,31 @@ While Wolverine is paired up, prevent all damage to him and his partner from  [F
     affiliation: "X-Men",
     rarity:      "Rare",
     ability:     "When Cable is blocked, you may pay   [2 Bolt] to have him damage your opponent (instead of his blockers) as though he were not blocked.",
+    "* ability":  "",
+    "** ability": "",
     global:      "Global: Pay   [2 Bolt] . Deal 1 damage to target enemy character. That character must block this turn (if able).",
     dieLimit:   4
   },
   {
     id: 100,
     dieId: 15,
+    setAbbr:          "UX",
     name:        "Captain America",
     subtitle:    "Superhero",
     cost:        5,
     type:        "Shield",
     affiliation: "Avengers",
     rarity:      "Rare",
-    ability:     "Heroic: When fielded, Captain America may pair up with a different Heroic character until the start of your next turn.
-While Captain America is paired up, he and his partner each gain +4A and +4D.",
+    ability:     "Heroic: When fielded, Captain America may pair up with a different Heroic character until the start of your next turn. While Captain America is paired up, he and his partner each gain +4A and +4D.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 101,
     dieId: 16,
+    setAbbr:          "UX",
     name:        "Emma Frost",
     subtitle:    "Graceful",
     cost:        4,
@@ -3301,12 +3721,15 @@ While Captain America is paired up, he and his partner each gain +4A and +4D.",
     affiliation: "X-Men",
     rarity:      "Rare",
     ability:     "While Emma Frost is active, opposing  [Fist]  characters get -1A (no matter how many Emma Frost dice you have fielded).",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 102,
     dieId: 17,
+    setAbbr:          "UX",
     name:        "Falcon",
     subtitle:    "Air Strike",
     cost:        3,
@@ -3314,26 +3737,31 @@ While Captain America is paired up, he and his partner each gain +4A and +4D.",
     affiliation: "None",
     rarity:      "Rare",
     ability:     "When fielded, you may move one of your Sidekicks to your used pile to deal 2 damage to an opposing character.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 103,
     dieId: 18,
+    setAbbr:          "UX",
     name:        "Iron Man",
     subtitle:    "Superhero",
     cost:        5,
     type:        "Shield",
     affiliation: "Avengers",
     rarity:      "Rare",
-    ability:     "Heroic: When fielded, Iron Man may pair up with a different Heroic character until the start of your next turn.
-While Iron Man is paired up, prevent the first 2 damage dealt to Iron Man and his partner.",
+    ability:     "Heroic: When fielded, Iron Man may pair up with a different Heroic character until the start of your next turn. While Iron Man is paired up, prevent the first 2 damage dealt to Iron Man and his partner.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 104,
     dieId: 19,
+    setAbbr:          "UX",
     name:        "Magik",
     subtitle:    "Redflag #133",
     cost:        5,
@@ -3341,12 +3769,15 @@ While Iron Man is paired up, prevent the first 2 damage dealt to Iron Man and hi
     affiliation: "None",
     rarity:      "Rare",
     ability:     "After Magik damages an opponent, reroll her die until you roll a  [Mask] face. Deal 1 damage to your opponent for each character face you rolled before rolling a  [Mask] . Place Magik in your used pile.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 105,
     dieId: 20,
+    setAbbr:          "UX",
     name:        "Marvel Girl",
     subtitle:    "Telepath",
     cost:        5,
@@ -3354,12 +3785,15 @@ While Iron Man is paired up, prevent the first 2 damage dealt to Iron Man and hi
     affiliation: "X-Men",
     rarity:      "Rare",
     ability:     "When fielded, you may pay  [1 Bolt]  to spin one character down a level and spin Marvel Girl up one level (you must do both).",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 106,
     dieId: 21,
+    setAbbr:          "UX",
     name:        "Mister Sinister",
     subtitle:    "Nathaniel Essex",
     cost:        5,
@@ -3367,12 +3801,15 @@ While Iron Man is paired up, prevent the first 2 damage dealt to Iron Man and hi
     affiliation: "Villains",
     rarity:      "Rare",
     ability:     "If Mr. Sinister and one of your Sidekicks are knocked out in the same turn, return Mr. Sinister to the field (at his same level).",
+    "* ability":  "",
+    "** ability": "",
     global:      "Global: Pay   [2 Bolt] . Each player chooses one of his characters to take 3 damage.",
     dieLimit:   4
   },
   {
     id: 107,
     dieId: 22,
+    setAbbr:          "UX",
     name:        "Mystique",
     subtitle:    "Alias: You",
     cost:        4,
@@ -3386,6 +3823,7 @@ While Iron Man is paired up, prevent the first 2 damage dealt to Iron Man and hi
   {
     id: 108,
     dieId: 23,
+    setAbbr:          "UX",
     name:        "Namor",
     subtitle:    "Imperius Rex",
     cost:        4,
@@ -3393,12 +3831,15 @@ While Iron Man is paired up, prevent the first 2 damage dealt to Iron Man and hi
     affiliation: "None",
     rarity:      "Rare",
     ability:     "If Namor is the only character in your field at the end of any turn, field up to two Sidekick dice from your used pile or prep area (spin them to their character face).",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 109,
     dieId: 24,
+    setAbbr:          "UX",
     name:        "Professor X",
     subtitle:    "Trainer",
     cost:        5,
@@ -3406,12 +3847,15 @@ While Iron Man is paired up, prevent the first 2 damage dealt to Iron Man and hi
     affiliation: "X-Men",
     rarity:      "Rare",
     ability:     "While Professor X is active, your Sidekicks get +1A and +1D (no matter how many Professor X dice you have fielded).",
+    "* ability":  "",
+    "** ability": "",
     global:      "Global: Pay  [1 Mask] . Move up to 2 Sidekick dice from your used pile to your prep area.",
     dieLimit:   4
   },
   {
     id: 110,
     dieId: 25,
+    setAbbr:          "UX",
     name:        "Psylocke",
     subtitle:    "Kwannon the Assassin",
     cost:        2,
@@ -3419,12 +3863,15 @@ While Iron Man is paired up, prevent the first 2 damage dealt to Iron Man and hi
     affiliation: "None",
     rarity:      "Rare",
     ability:     "When fielded, you may pay   [2 Masks] to knock out one character.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 111,
     dieId: 26,
+    setAbbr:          "UX",
     name:        "Pyro",
     subtitle:    "Uncontrolled",
     cost:        5,
@@ -3432,40 +3879,47 @@ While Iron Man is paired up, prevent the first 2 damage dealt to Iron Man and hi
     affiliation: "Villains",
     rarity:      "Rare",
     ability:     "When Pyro attacks, roll all the dice in your used pile. Deal 1 damage to your opponent for each  [Bolt]  rolled. Return the dice to your used pile.",
+    "* ability":  "",
+    "** ability": "",
     global:      "Global: Pay   [2 Bolts] . Draw and roll 2 dice from your bag. Keep any  [Bolt] results rolled. Return the rest to your bag.",
     dieLimit:   4
   },
   {
     id: 112,
     dieId: 27,
+    setAbbr:          "UX",
     name:        "Red Hulk",
     subtitle:    "Superhero",
     cost:        7,
     type:        "Fist",
     affiliation: "Avengers",
     rarity:      "Rare",
-    ability:     "Heroic: When fielded, Red Hulk may pair up with a different Heroic character until the start of your next turn.
-While Red Hulk is paired up, he and his partner each gain +3A.",
+    ability:     "Heroic: When fielded, Red Hulk may pair up with a different Heroic character until the start of your next turn. While Red Hulk is paired up, he and his partner each gain +3A.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 113,
     dieId: 28,
+    setAbbr:          "UX",
     name:        "Sabretooth",
     subtitle:    "Superpowered",
     cost:        5,
     type:        "Fist",
     affiliation: "Villains",
     rarity:      "Rare",
-    ability:     "Heroic: When fielded, Sabretooth may pair up with a different Heroic character until the start of your next turn.
-While Sabretooth is paired up, spin him and his partner to level 3 at the end of your turn.",
+    ability:     "Heroic: When fielded, Sabretooth may pair up with a different Heroic character until the start of your next turn. While Sabretooth is paired up, spin him and his partner to level 3 at the end of your turn.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 114,
     dieId: 29,
+    setAbbr:          "UX",
     name:        "Scarlet Witch",
     subtitle:    "Unity Squad",
     cost:        3,
@@ -3473,12 +3927,15 @@ While Sabretooth is paired up, spin him and his partner to level 3 at the end of
     affiliation: "Avengers",
     rarity:      "Rare",
     ability:     "On the turn after Scarlet Witch is fielded, you may make your opponent reroll one die from his initial roll (before he rerolls dice).",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 115,
     dieId: 30,
+    setAbbr:          "UX",
     name:        "Sentinel",
     subtitle:    "Robot",
     cost:        6,
@@ -3486,26 +3943,31 @@ While Sabretooth is paired up, spin him and his partner to level 3 at the end of
     affiliation: "Villains",
     rarity:      "Rare",
     ability:     "Sentinel gets +1A and +1D for each X-Men character your opponent has in the field.",
+    "* ability":  "",
+    "** ability": "",
     global:      "Global: Pay  [1 Shield] . One X-Men character must block this turn (if able).",
     dieLimit:   4
   },
   {
     id: 116,
     dieId: 31,
+    setAbbr:          "UX",
     name:        "She-Hulk",
     subtitle:    "Superhero",
     cost:        6,
     type:        "Fist",
     affiliation: "None",
     rarity:      "Rare",
-    ability:     "Heroic: When fielded, She-Hulk may pair up with a different Heroic character until the start of your next turn.
-While She-Hulk is paired up, gain 2 life each time she and/or her partner is blocked.",
+    ability:     "Heroic: When fielded, She-Hulk may pair up with a different Heroic character until the start of your next turn. While She-Hulk is paired up, gain 2 life each time she and/or her partner is blocked.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 117,
     dieId: 32,
+    setAbbr:          "UX",
     name:        "Spider-Man",
     subtitle:    "Spider Sense",
     cost:        4,
@@ -3513,12 +3975,15 @@ While She-Hulk is paired up, gain 2 life each time she and/or her partner is blo
     affiliation: "None",
     rarity:      "Rare",
     ability:     "Spider-Man takes half damage (rounded down) from  [Fist]  characters.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 118,
     dieId: 33,
+    setAbbr:          "UX",
     name:        "Storm",
     subtitle:    "Lady Liberator",
     cost:        3,
@@ -3526,25 +3991,31 @@ While She-Hulk is paired up, gain 2 life each time she and/or her partner is blo
     affiliation: "X-Men",
     rarity:      "Rare",
     ability:     "Each turn, you may redirect the first 2 damage dealt to Storm by action dice to your opponent.",
+    "* ability":  "",
+    "** ability": "",
     global:      "Global: Pay  [1 Mask] . Change the target of an action die that targets a character die to the character die of your choice.",
     dieLimit:   4
   },
   {
     id: 119,
     dieId: 34,
+    setAbbr:          "UX",
     name:        "Toad",
     subtitle:    "Mortimer Toynbee",
     cost:        4,
     type:        "Fist",
     affiliation: "Villains",
     rarity:      "Rare",
-    ability:     "While Toad is active, when your opponent ends his main step, choose one opposing character who must attack this turn.", "* That character takes 2 damage.",
+    ability:     "While Toad is active, when your opponent ends his main step, choose one opposing character who must attack this turn.",
+    "* ability":  "* That character takes 2 damage.",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 120,
     dieId: 35,
+    setAbbr:          "UX",
     name:        "Vision",
     subtitle:    "Victor Shade",
     cost:        5,
@@ -3552,25 +4023,31 @@ While She-Hulk is paired up, gain 2 life each time she and/or her partner is blo
     affiliation: "Avengers",
     rarity:      "Rare",
     ability:     "If an attacking  [Mask]  or  [Fist]  character deals damage to Vision, Vision deals an equal amount of damage to that attacker (in addition to his normal blocking damage).",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 121,
     dieId: 36,
+    setAbbr:          "UX",
     name:        "X-23",
     subtitle:    "Killing Machine",
     cost:        5,
     type:        "Fist",
     affiliation: "None",
     rarity:      "Rare",
-    ability:     "X-23 must attack if your opponent has a character of cost 5 or higher fielded.", "X-23 gets +1D when attacking.",
+    ability:     "X-23 must attack if your opponent has a character of cost 5 or higher fielded. X-23 gets +1D when attacking.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 122,
     dieId: 37,
+    setAbbr:          "UX",
     name:        "Cerebro",
     subtitle:    "Mutant Hunter",
     cost:        4,
@@ -3578,12 +4055,15 @@ While She-Hulk is paired up, gain 2 life each time she and/or her partner is blo
     affiliation: "Avengers",
     rarity:      "Rare",
     ability:     "Place Cerebro on a die's card. It remains there until you or a card effect removes it (it is still in the field). At the start of your turn, you may move Cerebro to your used pile to search your bag for a die from that card and roll it.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   2
   },
   {
     id: 123,
     dieId: 16,
+    setAbbr:          "UX",
     name:        "Emma Frost",
     subtitle:    "Hellfire Club",
     cost:        5,
@@ -3591,25 +4071,31 @@ While She-Hulk is paired up, gain 2 life each time she and/or her partner is blo
     affiliation: "Villains",
     rarity:      "Super-Rare",
     ability:     "Whenever Emma Frost is damaged by a  [Fist]  character, redirect the first 1 damage from her to your opponent.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 124,
     dieId: 18,
+    setAbbr:          "UX",
     name:        "Iron Man",
     subtitle:    "Industrialist",
     cost:        6,
     type:        "Shield",
     affiliation: "Avengers",
     rarity:      "Super-Rare",
-    ability:     "Cancel all damage that Villains deal to Iron Man.", "* Double Iron Man's attack value while he is engaged with a Villain.",
+    ability:     "Cancel all damage that Villains deal to Iron Man.",
+    "* ability":  "* Double Iron Man's attack value while he is engaged with a Villain.",
+    "** ability": "",
     global:      "Global: Pay  [1 Shield] . Target character gains the Villain affiliation.",
     dieLimit:   4
   },
   {
     id: 125,
     dieId: 29,
+    setAbbr:          "UX",
     name:        "Scarlet Witch",
     subtitle:    "Controls Probability",
     cost:        4,
@@ -3617,415 +4103,486 @@ While She-Hulk is paired up, gain 2 life each time she and/or her partner is blo
     affiliation: "X-Men",
     rarity:      "Super-Rare",
     ability:     "While Scarlet Witch is active, you may reroll any or all of your dice one additional time during the roll and reroll step.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
   },
   {
     id: 126,
     dieId: 32,
+    setAbbr:          "UX",
     name:        "Spider-Man",
     subtitle:    "Superhero",
     cost:        5,
     type:        "Fist",
     affiliation: "None",
     rarity:      "Super-Rare",
-    ability:     "Heroic: When fielded, Spider-Man may pair up with a different Heroic character until the start of your next turn.
-While Spider-Man is paired up, when he and/or his partner are knocked out, each may deal its attack in damage to a  [Bolt]  or  [Mask]  character.",
+    ability:     "Heroic: When fielded, Spider-Man may pair up with a different Heroic character until the start of your next turn. While Spider-Man is paired up, when he and/or his partner are knocked out, each may deal its attack in damage to a  [Bolt]  or  [Mask]  character.",
+    "* ability":  "",
+    "** ability": "",
     global:      "",
     dieLimit:   4
-  },
+  }
 ];
 
-
-
-
-var avengersVsXmenDieData = [
+var dicemastersDieData = [
   {
     id: 1,
+    setAbbr:  "AVX",
     name: "Beast",
     faces: [ "[1 Mask]", "[2 Mask]", "[2 Mask]", "[0/1/2/*]", "[0/2/3/-]", "[1/2/4/-]" ]
   },
   {
     id: 2,
+    setAbbr:  "AVX",
     name: "Captain America",
     faces: [ "[1 Shield]", "[2 Shield]", "[2 Shield]", "[1/3/3/-]", "[2/5/4/-]", "[2/5/5/-]" ]
   },
   {
     id: 3,
+    setAbbr:  "AVX",
     name: "Hulk",
     faces: [ "[1 Fist]", "[2 Fist]", "[2 Fist]", "[1/6/5/*]", "[2/7/7/*]", "[3/8/8/-]" ]
   },
   {
     id: 4,
+    setAbbr:  "AVX",
     name: "Human Torch",
     faces: [ "[1 Bolt]", "[2 Bolt]", "[2 Bolt]", "[0/2/2/-]", "[1/3/3/-]", "[2/4/4/-]" ]
   },
   {
     id: 5,
+    setAbbr:  "AVX",
     name: "Iron Man",
     faces: [ "[1 Shield]", "[2 Shield]", "[2 Shield]", "[1/3/5/-]", "[1/4/6/-]", "[2/5/7/*]" ]
   },
   {
     id: 6,
+    setAbbr:  "AVX",
     name: "Spider-Man",
     faces: [ "[1 Fist]", "[2 Fist]", "[2 Fist]", "[0/3/3/-]", "[1/4/4/-]", "[1/5/5/-]" ]
   },
   {
     id: 7,
+    setAbbr:  "AVX",
     name: "Storm",
     faces: [ "[1 Mask]", "[2 Mask]", "[2 Mask]", "[0/2/1/-]", "[1/2/2/-]", "[1/3/2/-]" ]
   },
   {
     id: 8,
+    setAbbr:  "AVX",
     name: "Thor",
     faces: [ "[1 Bolt]", "[2 Bolt]", "[2 Bolt]", "[1/5/6/-]", "[2/6/8/-]", "[3/8/8/-]" ]
   },
   {
     id: 9,
+    setAbbr:  "AVX",
     name: "Basic Action Card",
     faces: [ "[2 Generic]", "[2 Generic]", "[2 Generic]", "[-/-/-/-]", "[-/-/-/*]", "[-/-/-/**]" ]
   },
   {
     id: 10,
+    setAbbr:  "AVX",
     name: "Angel",
     faces: [ "[1 Shield]", "[2 Shield]", "[2 Shield]", "[0/2/3/-]", "[1/3/3/-]", "[1/3/4/-]" ]
   },
   {
     id: 11,
+    setAbbr:  "AVX",
     name: "Black Widow",
     faces: [ "[1 Fist]", "[2 Fist]", "[2 Fist]", "[0/2/1/-]", "[0/2/2/-]", "[1/3/3/-]" ]
   },
   {
     id: 12,
+    setAbbr:  "AVX",
     name: "Colossus",
     faces: [ "[1 Fist]", "[2 Fist]", "[2 Fist]", "[1/4/4/-]", "[1/6/5/*]", "[2/8/7/*]" ]
   },
   {
     id: 13,
+    setAbbr:  "AVX",
     name: "Cyclops",
     faces: [ "[1 Bolt]", "[2 Bolt]", "[2 Bolt]", "[1/4/2/-]", "[1/5/3/-]", "[1/6/4/-]" ]
   },
   {
     id: 14,
+    setAbbr:  "AVX",
     name: "Deadpool",
     faces: [ "[1 Fist]", "[2 Fist]", "[2 Fist]", "[0/2/4/-]", "[0/2/5/-]", "[1/3/7/-]" ]
   },
   {
     id: 15,
+    setAbbr:  "AVX",
     name: "Doctor Doom",
     faces: [ "[1 Shield]", "[2 Shield]", "[2 Shield]", "[1/3/6/-]", "[2/4/7/-]", "[3/5/8/-]" ]
   },
   {
     id: 16,
+    setAbbr:  "AVX",
     name: "Doctor Octopus",
     faces: [ "[1 Shield]", "[2 Shield]", "[2 Shield]", "[1/4/4/-]", "[2/4/8/-]", "[3/8/8/-]" ]
   },
   {
     id: 17,
+    setAbbr:  "AVX",
     name: "Doctor Strange",
     faces: [ "[1 Mask]", "[2 Mask]", "[2 Mask]", "[1/4/6/-]", "[2/5/8/-]", "[3/8/9/-]" ]
   },
   {
     id: 18,
+    setAbbr:  "AVX",
     name: "Gambit",
     faces: [ "[1 Mask]", "[2 Mask]", "[2 Mask]", "[1/1/1/*]", "[1/2/2/*]", "[2/4/4/-]" ]
   },
   {
     id: 19,
+    setAbbr:  "AVX",
     name: "Ghost Rider",
     faces: [ "[1 Bolt]", "[2 Bolt]", "[2 Bolt]", "[1/2/3/-]", "[2/3/4/-]", "[3/5/5/-]" ]
   },
   {
     id: 20,
+    setAbbr:  "AVX",
     name: "Green Goblin",
     faces: [ "[1 Bolt]", "[2 Bolt]", "[2 Bolt]", "[0/2/2/-]", "[1/3/3/-]", "[1/5/5/-]" ]
   },
   {
     id: 21,
+    setAbbr:  "AVX",
     name: "Hawkeye",
     faces: [ "[1 Bolt]", "[2 Bolt]", "[2 Bolt]", "[0/3/1/-]", "[0/4/1/-]", "[1/4/2/-]" ]
   },
   {
     id: 22,
+    setAbbr:  "AVX",
     name: "Loki",
     faces: [ "[1 Mask]", "[2 Mask]", "[2 Mask]", "[1/1/5/-]", "[1/1/7/-]", "[2/2/8/-]" ]
   },
   {
     id: 23,
+    setAbbr:  "AVX",
     name: "Magneto",
     faces: [ "[1 Mask]", "[2 Mask]", "[2 Mask]", "[1/4/4/-]", "[2/5/7/-]", "[3/6/8/-]" ]
   },
   {
     id: 24,
+    setAbbr:  "AVX",
     name: "Mr. Fantastic",
     faces: [ "[1 Mask]", "[2 Mask]", "[2 Mask]", "[1/1/5/-]", "[2/2/6/-]", "[2/2/7/-]" ]
   },
   {
     id: 25,
+    setAbbr:  "AVX",
     name: "Mystique",
     faces: [ "[1 Mask]", "[2 Mask]", "[2 Mask]", "[1/1/1/-]", "[0/1/1/-]", "[2/1/1/*]" ]
   },
   {
     id: 26,
+    setAbbr:  "AVX",
     name: "Nick Fury",
     faces: [ "[1 Shield]", "[2 Shield]", "[2 Shield]", "[0/1/3/-]", "[1/2/4/-]", "[1/2/5/-]" ]
   },
   {
     id: 27,
+    setAbbr:  "AVX",
     name: "Nightcrawler",
     faces: [ "[1 Fist]", "[2 Fist]", "[2 Fist]", "[1/2/4/-]", "[1/3/6/-]", "[2/5/6/-]" ]
   },
   {
     id: 28,
+    setAbbr:  "AVX",
     name: "Nova",
     faces: [ "[1 Bolt]", "[2 Bolt]", "[2 Bolt]", "[1/4/4/-]", "[2/5/6/-]", "[2/7/7/-]" ]
   },
   {
     id: 29,
+    setAbbr:  "AVX",
     name: "Phoenix",
     faces: [ "[1 Bolt]", "[2 Bolt]", "[2 Bolt]", "[1/5/5/-]", "[2/7/7/-]", "[3/8/8/-]" ]
   },
   {
     id: 30,
+    setAbbr:  "AVX",
     name: "Professor X",
     faces: [ "[1 Mask]", "[2 Mask]", "[2 Mask]", "[1/1/5/-]", "[2/1/7/-]", "[3/1/9/-]" ]
   },
   {
     id: 31,
+    setAbbr:  "AVX",
     name: "Punisher",
     faces: [ "[1 Bolt]", "[2 Bolt]", "[2 Bolt]", "[1/4/1/-]", "[1/5/2/-]", "[2/6/3/-]" ]
   },
   {
     id: 32,
+    setAbbr:  "AVX",
     name: "Rogue",
     faces: [ "[1 Mask]", "[2 Mask]", "[2 Mask]", "[1/2/3/-]", "[2/4/5/-]", "[2/5/6/-]" ]
   },
   {
     id: 33,
+    setAbbr:  "AVX",
     name: "Silver Surfer",
     faces: [ "[1 Shield]", "[2 Shield]", "[2 Shield]", "[1/5/5/-]", "[2/7/5/-]", "[3/8/7/-]" ]
   },
   {
     id: 34,
+    setAbbr:  "AVX",
     name: "Thing",
     faces: [ "[1 Fist]", "[2 Fist]", "[2 Fist]", "[1/3/3/-]", "[2/5/5/-]", "[3/8/6/-]" ]
   },
   {
     id: 35,
+    setAbbr:  "AVX",
     name: "Venom",
     faces: [ "[1 Fist]", "[2 Fist]", "[2 Fist]", "[1/4/4/-]", "[1/5/5/*]", "[2/6/6/*]" ]
   },
   {
     id: 36,
+    setAbbr:  "AVX",
     name: "War Machine",
     faces: [ "[1 Shield]", "[2 Shield]", "[2 Shield]", "[1/3/4/-]", "[1/4/5/-]", "[2/5/6/-]" ]
   },
   {
     id: 37,
+    setAbbr:  "AVX",
     name: "Wolverine",
     faces: [ "[1 Fist]", "[2 Fist]", "[2 Fist]", "[1/5/2/*]", "[2/6/3/*]", "[3/8/4/-]" ]
   },
   {
     id: 38,
+    setAbbr:  "AVX",
     name: "Mjolnir",
     faces: [ "[1 Bolt]", "[2 Bolt]", "[2 Bolt]", "[-/-/-/-]", "[-/-/-/*]", "[-/-/-/**]" ]
   },
   {
     id: 39,
+    setAbbr:  "AVX",
     name: "Vibranium Shield",
     faces: [ "[1 Shield]", "[2 Shield]", "[2 Shield]", "[-/-/-/-]", "[-/-/-/*]", "[-/-/-/**]" ]
-  }
-];
-
-
-
-
-var UncannyXmenDieData = [
+  },
   {
     id: 1,
+    setAbbr:  "UX",
     name: "Angel",
     faces: [ "[1 Shield]", "[2 Shield]", "[2 Shield]", "[0/2/2/-]", "[1/3/3/-]", "[1/3/4/-]" ]
   },
   {
     id: 2,
+    setAbbr:  "UX",
     name: "Cyclops",
     faces: [ "[1 Bolt]", "[2 Bolt]", "[2 Bolt]", "[1/4/2/-]", "[1/5/3/-]", "[1/6/4/-]" ]
   },
   {
     id: 3,
+    setAbbr:  "UX",
     name: "Iceman",
     faces: [ "[1 Bolt]", "[2 Bolt]", "[2 Bolt]", "[1/2/4/-]", "[1/3/6/-]", "[1/4/6/-]" ]
-  },  
+  },
   {
     id: 4,
+    setAbbr:  "UX",
     name: "Juggernaut",
     faces: [ "[1 Shield]", "[2 Shield]", "[2 Shield]", "[1/6/3/-]", "[2/7/4/-]", "[3/7/6/-]" ]
   },
   {
     id: 5,
+    setAbbr:  "UX",
     name: "Kitty Pryde",
     faces: [ "[1 Mask]", "[2 Mask]", "[2 Mask]", "[0/2/2/-]", "[0/3/2/-]", "[1/3/3/-]" ]
   },
   {
     id: 6,
+    setAbbr:  "UX",
     name: "Magneto",
     faces: [ "[1 Mask]", "[2 Mask]", "[2 Mask]", "[1/4/4/-]", "[2/5/7-]", "[3/6/8/-]" ]
   },
   {
     id: 7,
+    setAbbr:  "UX",
     name: "Quicksilver",
     faces: [ "[1 Bolt]", "[2 Bolt]", "[2 Bolt]", "[0/3/1/-]", "[1/3/2/-]", "[1/4/3/-]" ]
   },
   {
     id: 8,
+    setAbbr:  "UX",
     name: "Wolverine",
     faces: [ "[1 Fist]", "[2 Fist]", "[2 Fist]", "[1/5/2/*]", "[2/6/3/*]", "[3/8/4/-]" ]
   },
   {
     id: 9,
+    setAbbr:  "UX",
     name: "Basic Action Card",
     faces: [ "[2 Generic]", "[2 Generic]", "[2 Generic]", "[-/-/-/-]", "[-/-/-/*]", "[-/-/-/**]" ]
   },
   {
     id: 10,
+    setAbbr:  "UX",
     name: "Ant-Man",
     faces: [ "[1 Fist]", "[2 Fist]", "[2 Fist]", "[0/2/1/-]", "[0/3/1/-]", "[1/5/2/-]" ]
   },
   {
     id: 11,
+    setAbbr:  "UX",
     name: "Apocalypse",
     faces: [ "[1 Bolt]", "[2 Bolt]", "[2 Bolt]", "[1/3/5/-]", "[2/5/6/*]", "[2/6/7/*]" ]
   },
   {
     id: 12,
+    setAbbr:  "UX",
     name: "Bishop",
     faces: [ "[1 Shield]", "[2 Shield]", "[2 Shield]", "[1/2/5/-]", "[1/3/6/-]", "[2/5/6/-]" ]
   },
   {
     id: 13,
+    setAbbr:  "UX",
     name: "Black Panther",
     faces: [ "[1 Fist]", "[2 Fist]", "[2 Fist]", "[0/4/2/-]", "[1/5/2/-]", "[1/8/2/-]" ]
   },
   {
     id: 14,
+    setAbbr:  "UX",
     name: "Cable",
     faces: [ "[1 Bolt]", "[2 Bolt]", "[2 Bolt]", "[1/3/2/-]", "[2/3/3/-]", "[2/5/5/-]" ]
   },
   {
     id: 15,
+    setAbbr:  "UX",
     name: "Captain America",
     faces: [ "[1 Shield]", "[2 Shield]", "[2 Shield]", "[1/3/3/-]", "[2/5/4/-]", "[2/5/5/-]" ]
   },
   {
     id: 16,
+    setAbbr:  "UX",
     name: "Emma Frost",
     faces: [ "[1 Shield]", "[2 Shield]", "[2 Shield]", "[1/3/5/-]", "[1/4/6/-]", "[2/5/7/-]" ]
   },
   {
     id: 17,
+    setAbbr:  "UX",
     name: "Falcon",
     faces: [ "[1 Fist]", "[2 Fist]", "[2 Fist]", "[0/2/2/-]", "[1/3/3/-]", "[1/4/3/-]" ]
   },
   {
     id: 18,
+    setAbbr:  "UX",
     name: "Iron Man",
     faces: [ "[1 Shield]", "[2 Shield]", "[2 Shield]", "[1/3/5/-]", "[1/4/6/-]", "[2/5/7/*]" ]
   },
   {
     id: 19,
+    setAbbr:  "UX",
     name: "Magik",
     faces: [ "[1 Mask]", "[2 Mask]", "[2 Mask]", "[0/1/4-]", "[0/1/6/-]", "[1/2/7/-]" ]
   },
   {
     id: 20,
+    setAbbr:  "UX",
     name: "Marvel Girl",
     faces: [ "[1 Bolt]", "[2 Bolt]", "[2 Bolt]", "[1/3/3/-]", "[2/5/5/-]", "[3/6/6/-]" ]
   },
   {
     id: 21,
+    setAbbr:  "UX",
     name: "Mister Sinister",
     faces: [ "[1 Bolt]", "[2 Bolt]", "[2 Bolt]", "[1/4/1/-]", "[2/5/2/-]", "[2/6/3/-]" ]
   },
   {
     id: 22,
+    setAbbr:  "UX",
     name: "Mystique",
     faces: [ "[1 Mask]", "[2 Mask]", "[2 Mask]", "[1/1/1/-]", "[0/1/1/-]", "[2/1/1/-]" ]
   },
   {
     id: 23,
+    setAbbr:  "UX",
     name: "Namor",
     faces: [ "[1 Shield]", "[2 Shield]", "[2 Shield]", "[0/3/3/-]", "[1/4/4/-]", "[2/5/5/-]" ]
   },
   {
     id: 24,
+    setAbbr:  "UX",
     name: "Professor X",
     faces: [ "[1 Mask]", "[2 Mask]", "[2 Mask]", "[1/1/5/-]", "[2/1/7/-]", "[3/1/9/-]" ]
   },
   {
     id: 25,
+    setAbbr:  "UX",
     name: "Psylocke",
     faces: [ "[1 Mask]", "[2 Mask]", "[2 Mask]", "[0/1/2/-]", "[0/2/2/-]", "[1/3/3/-]" ]
   },
   {
     id: 26,
+    setAbbr:  "UX",
     name: "Pyro",
     faces: [ "[1 Bolt]", "[2 Bolt]", "[2 Bolt]", "[0/3/1/-]", "[1/4/2/-]", "[1/5/2/-]" ]
   },
   {
     id: 27,
+    setAbbr:  "UX",
     name: "Red Hulk",
     faces: [ "[1 Fist]", "[2 Fist]", "[2 Fist]", "[1/6/6/*]", "[2/7/7/*]", "[3/8/8/-]" ]
   },
   {
     id: 28,
+    setAbbr:  "UX",
     name: "Sabretooth",
     faces: [ "[1 Fist]", "[2 Fist]", "[2 Fist]", "[1/3/3/-]", "[1/4/4/-]", "[2/5/4/-]" ]
   },
   {
     id: 29,
+    setAbbr:  "UX",
     name: "Scarlet Witch",
     faces: [ "[1 Bolt]", "[2 Bolt]", "[2 Bolt]", "[0/1/3/-]", "[0/3/3/-]", "[1/5/3/-]" ]
   },
   {
     id: 30,
+    setAbbr:  "UX",
     name: "Sentinel",
     faces: [ "[1 Shield]", "[2 Shield]", "[2 Shield]", "[1/5/5/-]", "[2/6/6/-]", "[3/8/8/-]" ]
   },
   {
     id: 31,
+    setAbbr:  "UX",
     name: "She-Hulk",
     faces: [ "[1 Fist]", "[2 Fist]", "[2 Fist]", "[1/5/4/-]", "[2/6/6/-]", "[3/7/7/-]" ]
   },
   {
     id: 32,
+    setAbbr:  "UX",
     name: "Spider-Man",
     faces: [ "[1 Fist]", "[2 Fist]", "[2 Fist]", "[0/3/3/-]", "[1/4/4/-]", "[1/5/5/-]" ]
   },
   {
     id: 33,
+    setAbbr:  "UX",
     name: "Storm",
     faces: [ "[1 Mask]", "[2 Mask]", "[2 Mask]", "[0/2/1/-]", "[1/2/2/-]", "[1/3/2/-]" ]
   },
   {
     id: 34,
+    setAbbr:  "UX",
     name: "Toad",
     faces: [ "[1 Fist]", "[2 Fist]", "[2 Fist]", "[1/2/1/*]", "[2/3/2/*]", "[2/4/4/-]" ]
   },
   {
     id: 35,
+    setAbbr:  "UX",
     name: "Vision",
     faces: [ "[1 Mask]", "[2 Mask]", "[2 Mask]", "[0/1/4/-]", "[1/2/6/-]", "[2/4/7/-]" ]
   },
   {
     id: 36,
+    setAbbr:  "UX",
     name: "X-23",
     faces: [ "[1 Fist]", "[2 Fist]", "[2 Fist]", "[1/5/2/-]", "[2/6/2/-]", "[2/7/3/-]" ]
   },
   {
     id: 37,
+    setAbbr:  "UX",
     name: "Cerebro",
     faces: [ "[1 Mask]", "[2 Mask]", "[2 Mask]", "[-/-/-/-]", "[-/-/-/*]", "[-/-/-/**]" ]
-  },
+  }
 ];
 
 

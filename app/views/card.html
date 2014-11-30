@@ -47,11 +47,15 @@
       <div class="dieLimit">Die Limit: {{ card.dieLimit }}</div>
 
       <div class="dieFaces">
-        <span class="dieFace" ng-repeat="face in card.faces track by $index">{{ face }}</span>
+        <span class="dieFace" ng-repeat="face in die.faces track by $index">{{ face }}</span>
       </div>
 
       <div class="cardNum">
         Card #: {{ card.id }}
+      </div>
+
+      <div class="set">
+        {{ setName(card.setAbbr) }}
       </div>
     </div>
   </div>
