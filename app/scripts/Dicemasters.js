@@ -4052,7 +4052,7 @@ var dicemastersCardData = [
     subtitle:    "Mutant Hunter",
     cost:        4,
     type:        "Mask",
-    affiliation: "Avengers",
+    affiliation: "None",
     rarity:      "Rare",
     ability:     "Place Cerebro on a die's card. It remains there until you or a card effect removes it (it is still in the field). At the start of your turn, you may move Cerebro to your used pile to search your bag for a die from that card and roll it.",
     "* ability":  "",
