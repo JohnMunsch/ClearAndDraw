@@ -238,12 +238,12 @@ angular.module('mdmApp')
           if ((this.cardOwned || this.cardUnowned) && !(this.cardOwned && this.cardUnowned)) {
             // Not having any cards when they want owned ones fails the card in question (at least for this team or
             // collection.
-            if (this.cardOwned && this.numCards(card.id, team) === 0) {
+            if (this.cardOwned && this.numCards(card.id, card.setAbbr, team) === 0) {
               return false;
             }
 
             // Also, wanting only unowned cards and finding they have one or more excludes this card.
-            if (this.cardUnowned && this.numCards(card.id, team) > 0) {
+            if (this.cardUnowned && this.numCards(card.id, card.setAbbr, team) > 0) {
               return false;
             }
           }
