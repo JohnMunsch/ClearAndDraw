@@ -107,7 +107,7 @@ angular.module('mdmApp')
         if (teamCard) {
           teamCard.count++;
         } else {
-          team.cards.push({ id: cardId, count: 1 });
+          team.cards.push({ id: cardId, setAbbr: setAbbr, count: 1 });
         }
       };
 
@@ -120,7 +120,7 @@ angular.module('mdmApp')
             teamCard.count--;
           }
         } else {
-          team.cards.push({ id: cardId, count: 0 });
+          team.cards.push({ id: cardId, setAbbr: setAbbr, count: 0 });
         }
       };
 
