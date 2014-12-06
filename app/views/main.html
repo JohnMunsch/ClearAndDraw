@@ -37,42 +37,42 @@
       <h5>Set</h5>
       <div class="checkbox" ng-repeat="set in filters.sets">
         <label>
-          <input type="checkbox" ng-true-value="{{ set }}" ng-false-value="" ng-model="sets[$index]"> {{ setName(set) }}
+          <input type="checkbox" ng-checked="filterOn(sets, set)" ng-click="toggleFilter(sets, set)"> {{ setName(set) }}
         </label>
       </div>
 
       <h5>Affiliations</h5>
       <div class="checkbox" ng-repeat="affiliation in filters.affiliations">
         <label>
-          <input type="checkbox" ng-true-value="{{ affiliation }}" ng-false-value="" ng-model="affiliations[$index]"> {{ affiliation }}
+          <input type="checkbox" ng-checked="filterOn(affiliations, affiliation)" ng-click="toggleFilter(affiliations, affiliation)"> {{ affiliation }}
         </label>
       </div>
 
       <h5>Cost</h5>
       <div class="checkbox" ng-repeat="cost in filters.costs">
         <label>
-          <input type="checkbox" ng-true-value="{{ cost }}" ng-false-value="" ng-model="costs[$index]"> {{ cost }}
+          <input type="checkbox" ng-checked="filterOn(costs, cost)" ng-click="toggleFilter(costs, cost)"> {{ cost }}
         </label>
       </div>
 
       <h5>Type</h5>
       <div class="checkbox" ng-repeat="type in filters.types">
         <label>
-          <input type="checkbox" ng-true-value="{{ type }}" ng-false-value="" ng-model="types[$index]"> {{ type }}
+          <input type="checkbox" ng-checked="filterOn(types, type)" ng-click="toggleFilter(types, type)"> {{ type }}
         </label>
       </div>
 
       <h5>Rarity</h5>
       <div class="checkbox" ng-repeat="rarity in filters.rarities">
         <label>
-          <input type="checkbox" ng-true-value="{{ rarity }}" ng-false-value="" ng-model="rarities[$index]"> {{ rarity }}
+          <input type="checkbox"ng-checked="filterOn(rarities, rarity)" ng-click="toggleFilter(rarities, rarity)"> {{ rarity }}
         </label>
       </div>
 
       <h5>Die Limit</h5>
       <div class="checkbox" ng-repeat="dieLimit in filters.dieLimits">
         <label>
-          <input type="checkbox" ng-true-value="{{ dieLimit }}" ng-false-value="" ng-model="dieLimits[$index]"> {{ dieLimit }}
+          <input type="checkbox"ng-checked="filterOn(dieLimits, dieLimit)" ng-click="toggleFilter(dieLimits, dieLimit)"> {{ dieLimit }}
         </label>
       </div>
     </form>
@@ -132,8 +132,8 @@
             <input type="checkbox" ng-model="card.selected">
             <a class="name" href="#!/card/{{ card.slug }}">{{ card.name }} - {{ card.subtitle }}</a>
 
-            <span class="badge" ng-if="numCards(card.id, myCollection) || numDice(card.id, myCollection)">
-              {{ numCards(card.id, myCollection) }} | {{ numDice(card.id, myCollection) }}
+            <span class="badge" ng-if="numCards(card.id, card.setAbbr, myCollection) || numDice(card.id, card.setAbbr, myCollection)">
+              {{ numCards(card.id, card.setAbbr, myCollection) }} | {{ numDice(card.id, card.setAbbr, myCollection) }}
             </span>
 
             <div class="pull-right"><small>{{ card.cost }}{{ card.type }}/{{ card.affiliation }}/{{ card.dieLimit }}/{{ card.rarity }}</small></div>

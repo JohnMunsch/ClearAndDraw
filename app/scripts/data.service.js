@@ -36,6 +36,21 @@ angular.module('mdmApp')
       // If we updated the collection, make sure that's the version we're keeping for the future.
       $localStorage.myCollection = this.myCollection;
 
+      this.filterOn = function (filterArray, item) {
+        return (filterArray.indexOf(item) > -1);
+      };
+
+      this.toggleFilter = function (filterArray, item) {
+        var idx = filterArray.indexOf(item);
+
+        // is currently selected
+        if (idx > -1) {
+          filterArray.splice(idx, 1);
+        } else {
+          filterArray.push(item);
+        }
+      };
+
       //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
       //                                                                                       Manipulate Selected Cards
       //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -59,7 +74,7 @@ angular.module('mdmApp')
 
       this.addCardToSelected = function (cardList, team) {
         _.each(selectedCards(cardList), function (card) {
-          dataSvc.addCardToTeam(card.id, team);
+          dataSvc.addCardToTeam(card.id, card.setAbbr, team);
         });
       };
 
@@ -85,9 +100,9 @@ angular.module('mdmApp')
         });
       };
 
-      this.addCardToTeam = function (cardId, team) {
+      this.addCardToTeam = function (cardId, setAbbr, team) {
         // Find the team record for this card (or add one if needed) and increment its count.
-        var teamCard = _.find(team.cards, { id: cardId });
+        var teamCard = _.find(team.cards, { id: cardId, setAbbr: setAbbr });
 
         if (teamCard) {
           teamCard.count++;
@@ -96,9 +111,9 @@ angular.module('mdmApp')
         }
       };
 
-      this.removeCardFromTeam = function (cardId, team) {
+      this.removeCardFromTeam = function (cardId, setAbbr, team) {
         // Find the team record for this card (or add one if needed) and decrement its count.
-        var teamCard = _.find(team.cards, { id: cardId });
+        var teamCard = _.find(team.cards, { id: cardId, setAbbr: setAbbr });
 
         if (teamCard) {
           if (teamCard.count > 0) {
@@ -142,8 +157,8 @@ angular.module('mdmApp')
       //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
       //                                                                                   Get Card Data (Based On Team)
       //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-      this.numCards = function(cardId, team) {
-        var teamCardRecord = _.find(team.cards, { id: cardId });
+      this.numCards = function(cardId, setAbbr, team) {
+        var teamCardRecord = _.find(team.cards, { id: cardId, setAbbr: setAbbr });
 
         if (teamCardRecord) {
           return teamCardRecord.count;
@@ -152,8 +167,8 @@ angular.module('mdmApp')
         }
       };
 
-      this.numDice = function (cardId, team) {
-        var teamCardRecord = _.find(dataSvc.allCards, { id: cardId });
+      this.numDice = function (cardId, setAbbr, team) {
+        var teamCardRecord = _.find(dataSvc.allCards, { id: cardId, setAbbr: setAbbr });
 
         if (teamCardRecord) {
           var teamDiceRecord = _.find(team.dice, { id: teamCardRecord.dieId });
@@ -276,7 +291,7 @@ angular.module('mdmApp')
             return (card.dice > 0);
           });
           var dieList = _.groupBy(cardsWithDice, function (card) {
-            return _.find(dataSvc.allCards, { id: card.id }).dieId;
+            return _.find(dataSvc.allCards, { id: card.id, setAbbr: card.setAbbr }).dieId;
           });
           newTeam.dice = _.map(dieList, function (cardList, dieId) {
             return ({ id: parseInt(dieId, 10), count: _.max(_.pluck(cardList, 'dice')) });

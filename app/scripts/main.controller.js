@@ -14,6 +14,9 @@ angular.module('mdmApp')
     $scope.rarities = dataSvc.rarities;
     $scope.dieLimits = dataSvc.dieLimits;
 
+    $scope.filterOn = dataSvc.filterOn;
+    $scope.toggleFilter = dataSvc.toggleFilter;
+
     // Passed through service functions.
     $scope.selectAll = dataSvc.selectAll;
     $scope.selectNone = dataSvc.selectNone;
