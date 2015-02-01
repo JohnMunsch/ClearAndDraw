@@ -50,6 +50,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: 'Komika Axis Regular', Arial, sans-serif;
 }
 
+h2 {
+  font-size: large;
+}
+
 /* Custom page footer */
 .footer {
   padding-top: 19px;
