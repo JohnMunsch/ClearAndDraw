@@ -1,6 +1,7 @@
-// flightplan.js
-var plan = require('flightplan');
-
+// Running this requires installing flightplan (see https://github.com/pstadler/flightplan).
+// Then use the "fly" command to deploy this application. Note: At the moment there are not multiple tasks
+// specified in this flightplan file. Consult the PaperQuick project to see a flightplan with commands for 
+// configuration of a new server and upgrading it to the latest software.
 plan.target('production', [
   {
     host: 'PocketChange',
