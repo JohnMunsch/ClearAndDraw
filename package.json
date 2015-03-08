@@ -34,6 +34,8 @@
     "karma-phantomjs-launcher": "~0.1.0",
     "load-grunt-tasks": "~0.4.0",
     "phantomjs": "*",
+    "shipit-cli": "^1.2.1",
+    "shipit-deploy": "^1.1.1",
     "time-grunt": "~0.2.1"
   },
   "engines": {
