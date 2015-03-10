@@ -80,7 +80,7 @@ angular.module('mdmApp')
 
       this.removeCardFromSelected = function (cardList, team) {
         _.each(selectedCards(cardList), function (card) {
-          dataSvc.removeCardFromTeam(card.id, team);
+          dataSvc.removeCardFromTeam(card.id, card.setAbbr, team);
         });
       };
 

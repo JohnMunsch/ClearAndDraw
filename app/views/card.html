@@ -61,20 +61,20 @@
   </div>
   <div class="col-sm-3">
     <div>
-      # of Cards Owned: {{ numCards(card.id, myCollection) }}
+      # of Cards Owned: {{ numCards(card.id, card.setAbbr, myCollection) }}
       <span class="btn-group">
         <button type="button" class="btn btn-primary btn-xs" disabled="disabled">Card</button>
         <button type="button" class="btn btn-primary btn-xs"
-                ng-click="addCardToTeam(card.id, myCollection)">
+                ng-click="addCardToTeam(card.id, card.setAbbr, myCollection)">
           <span class="glyphicon glyphicon-plus"></span></button>
         <button type="button" class="btn btn-primary btn-xs"
-                ng-click="removeCardFromTeam(card.id, myCollection)">
+                ng-click="removeCardFromTeam(card.id, card.setAbbr, myCollection)">
           <span class="glyphicon glyphicon-minus"></span></button>
       </span>
     </div>
 
     <div>
-      # of Dice Owned: {{ numDice(card.id, myCollection) }}
+      # of Dice Owned: {{ numDice(card.id, card.setAbbr, myCollection) }}
       <span class="btn-group">
         <button type="button" class="btn btn-primary btn-xs" disabled="disabled">Dice</button>
         <button type="button" class="btn btn-primary btn-xs"
