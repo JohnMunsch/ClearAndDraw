@@ -8,6 +8,12 @@ module.exports = function (shipit) {
   require('shipit-deploy')(shipit);
 
   shipit.initConfig({
+    default: {
+      key: '../PaperQuik/.vagrant/machines/default/virtualbox/private_key'
+    },
+    vagrant: {
+      servers: 'vagrant@127.0.0.1:2222'
+    },
     production: {
       servers: 'root@PocketChange'
     }
